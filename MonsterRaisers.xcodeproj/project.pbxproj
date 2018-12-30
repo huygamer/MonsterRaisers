@@ -7,32 +7,527 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		770E045921C8647D00583C9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E045821C8647D00583C9B /* AppDelegate.m */; };
-		770E045B21C8647D00583C9B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E045A21C8647D00583C9B /* GameScene.sks */; };
-		770E045D21C8647D00583C9B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E045C21C8647D00583C9B /* Actions.sks */; };
-		770E046021C8647D00583C9B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E045F21C8647D00583C9B /* GameScene.m */; };
-		770E046321C8647D00583C9B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E046221C8647D00583C9B /* GameViewController.m */; };
-		770E046621C8647D00583C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770E046421C8647D00583C9B /* Main.storyboard */; };
-		770E046821C8647E00583C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770E046721C8647E00583C9B /* Assets.xcassets */; };
-		770E046B21C8647E00583C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770E046921C8647E00583C9B /* LaunchScreen.storyboard */; };
 		770E046E21C8647E00583C9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E046D21C8647E00583C9B /* main.m */; };
+		770E054621C864C700583C9B /* LKLauchingScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E047821C864A800583C9B /* LKLauchingScene.m */; };
+		770E054721C864C700583C9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E047921C864A800583C9B /* AppDelegate.m */; };
+		770E054821C864C700583C9B /* LapKanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E047A21C864A800583C9B /* LapKanViewController.m */; };
+		770E054921C864C700583C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770E047D21C864A800583C9B /* LaunchScreen.storyboard */; };
+		770E054A21C864C700583C9B /* LKLauchingScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E047E21C864A800583C9B /* LKLauchingScene.sks */; };
+		770E054B21C864C700583C9B /* LKLauchingSceneIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E047F21C864A800583C9B /* LKLauchingSceneIphone.sks */; };
+		770E054C21C864C700583C9B /* TinyCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E048421C864BD00583C9B /* TinyCharacter.m */; };
+		770E054D21C864C700583C9B /* TinyEnemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E048721C864BD00583C9B /* TinyEnemy.m */; };
+		770E054E21C864C700583C9B /* TinyArmy.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E048821C864BD00583C9B /* TinyArmy.m */; };
+		770E054F21C864C700583C9B /* TinyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E048B21C864BD00583C9B /* TinyObject.m */; };
+		770E055021C864C700583C9B /* TinyAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E048C21C864BD00583C9B /* TinyAnimal.m */; };
+		770E055121C864C700583C9B /* GeneralAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770E048D21C864BD00583C9B /* GeneralAsset.xcassets */; };
+		770E055221C864C700583C9B /* TinyCharState.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E048F21C864BD00583C9B /* TinyCharState.m */; };
+		770E055321C864C700583C9B /* TinyExecutioner.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E049221C864BD00583C9B /* TinyExecutioner.m */; };
+		770E055421C864C700583C9B /* TinyArcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E049421C864BD00583C9B /* TinyArcher.m */; };
+		770E055521C864C700583C9B /* TinySheep.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E049521C864BD00583C9B /* TinySheep.m */; };
+		770E055621C864C700583C9B /* TinyPriest.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E049A21C864BD00583C9B /* TinyPriest.m */; };
+		770E055721C864C700583C9B /* TinyKnight.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E049B21C864BD00583C9B /* TinyKnight.m */; };
+		770E055821C864C700583C9B /* TinyCyclop.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E049E21C864BD00583C9B /* TinyCyclop.m */; };
+		770E055921C864C700583C9B /* TinyGoblin.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E04A321C864BD00583C9B /* TinyGoblin.m */; };
+		770E055A21C864C700583C9B /* TinyOgre.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E04A421C864BD00583C9B /* TinyOgre.m */; };
+		770E055B21C864C700583C9B /* TinyOrc.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E04A521C864BD00583C9B /* TinyOrc.m */; };
+		770E055C21C864C700583C9B /* TinyWolf.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E04A621C864BD00583C9B /* TinyWolf.m */; };
+		770E055D21C864C700583C9B /* TinyControlCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E04A721C864BD00583C9B /* TinyControlCenter.m */; };
+		770E055E21C864C700583C9B /* TinyMapSet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770E04A821C864BD00583C9B /* TinyMapSet.xcassets */; };
+		770E055F21C864C700583C9B /* Wolf2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04AB21C864BD00583C9B /* Wolf2.atlas */; };
+		770E056021C864C700583C9B /* Ogre1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04AC21C864BD00583C9B /* Ogre1.atlas */; };
+		770E056121C864C700583C9B /* Ogre3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04AD21C864BD00583C9B /* Ogre3.atlas */; };
+		770E056221C864C700583C9B /* Wolf1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04AE21C864BD00583C9B /* Wolf1.atlas */; };
+		770E056321C864C700583C9B /* Wolf3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04AF21C864BD00583C9B /* Wolf3.atlas */; };
+		770E056421C864C700583C9B /* Ogre2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04B021C864BD00583C9B /* Ogre2.atlas */; };
+		770E056521C864C700583C9B /* Sheep2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04B121C864BD00583C9B /* Sheep2.atlas */; };
+		770E056621C864C700583C9B /* Cyclop2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04B221C864BD00583C9B /* Cyclop2.atlas */; };
+		770E056721C864C700583C9B /* Goblin2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04B321C864BD00583C9B /* Goblin2.atlas */; };
+		770E056821C864C700583C9B /* Sheep3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04B421C864BD00583C9B /* Sheep3.atlas */; };
+		770E056921C864C700583C9B /* Sheep1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04B521C864BD00583C9B /* Sheep1.atlas */; };
+		770E056A21C864C700583C9B /* Cyclop1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04B621C864BD00583C9B /* Cyclop1.atlas */; };
+		770E056B21C864C700583C9B /* Goblin3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04B721C864BD00583C9B /* Goblin3.atlas */; };
+		770E056C21C864C700583C9B /* Cyclop3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04B821C864BD00583C9B /* Cyclop3.atlas */; };
+		770E056D21C864C700583C9B /* Goblin1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04B921C864BD00583C9B /* Goblin1.atlas */; };
+		770E056E21C864C700583C9B /* Executioner3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04BB21C864BD00583C9B /* Executioner3.atlas */; };
+		770E056F21C864C700583C9B /* Archer3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04BC21C864BD00583C9B /* Archer3.atlas */; };
+		770E057021C864C700583C9B /* PriestRed.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04BD21C864BD00583C9B /* PriestRed.atlas */; };
+		770E057121C864C700583C9B /* Warrior3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04BE21C864BD00583C9B /* Warrior3.atlas */; };
+		770E057221C864C700583C9B /* TileMapSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04C021C864C100583C9B /* TileMapSet.sks */; };
+		770E057321C864C700583C9B /* TileMapAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770E04C121C864C100583C9B /* TileMapAsset.xcassets */; };
+		770E057421C864C700583C9B /* CrazyCow@2x.skf in Resources */ = {isa = PBXBuildFile; fileRef = 770E04C321C864C200583C9B /* CrazyCow@2x.skf */; };
+		770E057521C864C700583C9B /* SSBitmapGlyph.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E04C521C864C200583C9B /* SSBitmapGlyph.m */; };
+		770E057621C864C700583C9B /* LKGlyphCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E04C721C864C200583C9B /* LKGlyphCenter.m */; };
+		770E057721C864C700583C9B /* SSBitmapFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E04CA21C864C200583C9B /* SSBitmapFont.m */; };
+		770E057821C864C700583C9B /* SSBitmapFontLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E04CC21C864C200583C9B /* SSBitmapFontLabelNode.m */; };
+		770E057921C864C700583C9B /* CrazyCow-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 770E04CF21C864C200583C9B /* CrazyCow-outline.png */; };
+		770E057A21C864C700583C9B /* CrazyCow.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E04D021C864C200583C9B /* CrazyCow.atlas */; };
+		770E057B21C864C700583C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770E04D121C864C300583C9B /* Assets.xcassets */; };
+		770E057C21C864C700583C9B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E04D321C864C300583C9B /* GameViewController.m */; };
+		770E057D21C864C700583C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770E04D421C864C300583C9B /* Main.storyboard */; };
+		770E057E21C864C700583C9B /* AdControlScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04D521C864C300583C9B /* AdControlScene.sks */; };
+		770E057F21C864C700583C9B /* BoardLose.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04D921C864C600583C9B /* BoardLose.sks */; };
+		770E058021C864C700583C9B /* BoardPause.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04DA21C864C600583C9B /* BoardPause.sks */; };
+		770E058121C864C700583C9B /* BoardWin.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04DB21C864C600583C9B /* BoardWin.sks */; };
+		770E058221C864C700583C9B /* BoardEnd.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04DC21C864C600583C9B /* BoardEnd.sks */; };
+		770E058321C864C700583C9B /* ParadiseTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04DD21C864C600583C9B /* ParadiseTileSet.sks */; };
+		770E058421C864C700583C9B /* MainButton.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770E04DE21C864C600583C9B /* MainButton.xcassets */; };
+		770E058521C864C700583C9B /* LKRootChooseBackIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04E021C864C600583C9B /* LKRootChooseBackIphone.sks */; };
+		770E058621C864C700583C9B /* LKRootChooseBack.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04E121C864C600583C9B /* LKRootChooseBack.sks */; };
+		770E058721C864C700583C9B /* LKRootBasicHUDIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04E221C864C600583C9B /* LKRootBasicHUDIphone.sks */; };
+		770E058821C864C700583C9B /* LKRootPlayHUDIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04E321C864C600583C9B /* LKRootPlayHUDIphone.sks */; };
+		770E058921C864C700583C9B /* LKRootChooseHUDIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04E421C864C600583C9B /* LKRootChooseHUDIphone.sks */; };
+		770E058A21C864C700583C9B /* LKRootChooseHUD.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04E521C864C600583C9B /* LKRootChooseHUD.sks */; };
+		770E058B21C864C700583C9B /* LKRootBasicHUD.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04E621C864C600583C9B /* LKRootBasicHUD.sks */; };
+		770E058C21C864C700583C9B /* LKRootPlayHUD.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04E721C864C600583C9B /* LKRootPlayHUD.sks */; };
+		770E058D21C864C700583C9B /* LKRootPlayHUDIphoneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04E921C864C600583C9B /* LKRootPlayHUDIphoneL.sks */; };
+		770E058E21C864C700583C9B /* LKRootBasicHUDIphoneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04EA21C864C600583C9B /* LKRootBasicHUDIphoneL.sks */; };
+		770E058F21C864C700583C9B /* LKRootChooseHUDL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04EB21C864C600583C9B /* LKRootChooseHUDL.sks */; };
+		770E059021C864C700583C9B /* LKRootBasicHUDL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04EC21C864C600583C9B /* LKRootBasicHUDL.sks */; };
+		770E059121C864C700583C9B /* LKRootChooseBackL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04ED21C864C600583C9B /* LKRootChooseBackL.sks */; };
+		770E059221C864C700583C9B /* LKRootChooseBackIphoneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04EE21C864C600583C9B /* LKRootChooseBackIphoneL.sks */; };
+		770E059321C864C700583C9B /* LKRootPlayHUDL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04EF21C864C600583C9B /* LKRootPlayHUDL.sks */; };
+		770E059421C864C700583C9B /* LKRootChooseHUDIphoneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04F021C864C600583C9B /* LKRootChooseHUDIphoneL.sks */; };
+		770E059521C864C700583C9B /* DimboRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 770E04F221C864C600583C9B /* DimboRegular.ttf */; };
+		770E059621C864C700583C9B /* Water_Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 770E04F321C864C600583C9B /* Water_Shader.fsh */; };
+		770E059721C864C700583C9B /* shader_water_reflection.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 770E04F421C864C600583C9B /* shader_water_reflection.fsh */; };
+		770E059821C864C700583C9B /* shader_water_movement.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 770E04F521C864C600583C9B /* shader_water_movement.fsh */; };
+		770E059921C864C700583C9B /* TitanOne.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 770E04F621C864C600583C9B /* TitanOne.ttf */; };
+		770E059A21C864C700583C9B /* MainSet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770E04F721C864C600583C9B /* MainSet.xcassets */; };
+		770E059B21C864C700583C9B /* LKRootChapterScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04F921C864C600583C9B /* LKRootChapterScene.sks */; };
+		770E059C21C864C700583C9B /* LKRootGuideSceneIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04FA21C864C600583C9B /* LKRootGuideSceneIphone.sks */; };
+		770E059D21C864C700583C9B /* LKRootMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04FB21C864C600583C9B /* LKRootMenuScene.sks */; };
+		770E059E21C864C700583C9B /* LKRootMenuSceneIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04FC21C864C600583C9B /* LKRootMenuSceneIphone.sks */; };
+		770E059F21C864C700583C9B /* LKRootCreditScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04FD21C864C600583C9B /* LKRootCreditScene.sks */; };
+		770E05A021C864C700583C9B /* LKRootChapterSceneIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04FE21C864C600583C9B /* LKRootChapterSceneIphone.sks */; };
+		770E05A121C864C700583C9B /* LKRootGuideScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E04FF21C864C600583C9B /* LKRootGuideScene.sks */; };
+		770E05A221C864C700583C9B /* LKRootShopCoinScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E050021C864C600583C9B /* LKRootShopCoinScene.sks */; };
+		770E05A321C864C700583C9B /* LKRootShopCoinSceneIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E050121C864C600583C9B /* LKRootShopCoinSceneIphone.sks */; };
+		770E05A421C864C700583C9B /* LKRootCreditSceneIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E050221C864C600583C9B /* LKRootCreditSceneIphone.sks */; };
+		770E05A521C864C700583C9B /* LKRootPlayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E050321C864C600583C9B /* LKRootPlayScene.sks */; };
+		770E05A621C864C700583C9B /* LKRootCreditSceneIphoneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E050521C864C600583C9B /* LKRootCreditSceneIphoneL.sks */; };
+		770E05A721C864C700583C9B /* LKRootPlaySceneIphoneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E050621C864C600583C9B /* LKRootPlaySceneIphoneL.sks */; };
+		770E05A821C864C700583C9B /* LKRootCreditSceneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E050721C864C600583C9B /* LKRootCreditSceneL.sks */; };
+		770E05A921C864C700583C9B /* LKRootGuideSceneIphoneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E050821C864C600583C9B /* LKRootGuideSceneIphoneL.sks */; };
+		770E05AA21C864C700583C9B /* LKRootChapterSceneIphoneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E050921C864C600583C9B /* LKRootChapterSceneIphoneL.sks */; };
+		770E05AB21C864C700583C9B /* LKRootPlaySceneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E050A21C864C600583C9B /* LKRootPlaySceneL.sks */; };
+		770E05AC21C864C700583C9B /* LKRootShopCoinSceneIphoneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E050B21C864C600583C9B /* LKRootShopCoinSceneIphoneL.sks */; };
+		770E05AD21C864C700583C9B /* LKRootMenuSceneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E050C21C864C600583C9B /* LKRootMenuSceneL.sks */; };
+		770E05AE21C864C700583C9B /* LKRootShowroomL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E050D21C864C600583C9B /* LKRootShowroomL.sks */; };
+		770E05AF21C864C700583C9B /* LKRootShopCoinSceneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E050E21C864C600583C9B /* LKRootShopCoinSceneL.sks */; };
+		770E05B021C864C700583C9B /* LKRootGuideSceneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E050F21C864C600583C9B /* LKRootGuideSceneL.sks */; };
+		770E05B121C864C700583C9B /* LKRootMenuSceneIphoneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E051021C864C600583C9B /* LKRootMenuSceneIphoneL.sks */; };
+		770E05B221C864C700583C9B /* LKRootChapterSceneL.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E051121C864C600583C9B /* LKRootChapterSceneL.sks */; };
+		770E05B321C864C700583C9B /* LKRootShowroom.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E051221C864C600583C9B /* LKRootShowroom.sks */; };
+		770E05B421C864C700583C9B /* LKRootPlaySceneIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E051321C864C600583C9B /* LKRootPlaySceneIphone.sks */; };
+		770E05B521C864C700583C9B /* SmokeEffect.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E051521C864C600583C9B /* SmokeEffect.sks */; };
+		770E05B621C864C700583C9B /* FlyfireEffect.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E051621C864C600583C9B /* FlyfireEffect.sks */; };
+		770E05B721C864C700583C9B /* ItemList.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 770E051721C864C600583C9B /* ItemList.atlas */; };
+		770E05B821C864C700583C9B /* WrongSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 770E051921C864C600583C9B /* WrongSound.wav */; };
+		770E05B921C864C700583C9B /* HitSound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 770E051A21C864C600583C9B /* HitSound.m4a */; };
+		770E05BA21C864C700583C9B /* DellFarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 770E051B21C864C600583C9B /* DellFarm.mp3 */; };
+		770E05BB21C864C700583C9B /* FarmSong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 770E051C21C864C600583C9B /* FarmSong.m4a */; };
+		770E05BC21C864C700583C9B /* GetOutside.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 770E051D21C864C600583C9B /* GetOutside.mp3 */; };
+		770E05BD21C864C700583C9B /* ButtonClickSound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 770E051E21C864C600583C9B /* ButtonClickSound.m4a */; };
+		770E05BE21C864C700583C9B /* AboutThatOldie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 770E051F21C864C600583C9B /* AboutThatOldie.mp3 */; };
+		770E05BF21C864C700583C9B /* CorrectSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 770E052021C864C600583C9B /* CorrectSound.wav */; };
+		770E05C021C864C700583C9B /* SheepProtectorLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E052521C864C700583C9B /* SheepProtectorLaunch.m */; };
+		770E05C121C864C700583C9B /* CrazySheepGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E052621C864C700583C9B /* CrazySheepGame.m */; };
+		770E05C221C864C700583C9B /* SheepProtectorChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E052721C864C700583C9B /* SheepProtectorChoose.m */; };
+		770E05C321C864C700583C9B /* SheepProtectorPlayDrag.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E052821C864C700583C9B /* SheepProtectorPlayDrag.m */; };
+		770E05C421C864C700583C9B /* GameStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E052D21C864C700583C9B /* GameStore.m */; };
+		770E05C521C864C700583C9B /* CrazySheepGame.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E052F21C864C700583C9B /* CrazySheepGame.sks */; };
+		770E05C621C864C700583C9B /* SheepProtectorPlayDrag.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E053021C864C700583C9B /* SheepProtectorPlayDrag.sks */; };
+		770E05C721C864C700583C9B /* SheepProtectorLaunch.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E053121C864C700583C9B /* SheepProtectorLaunch.sks */; };
+		770E05C821C864C700583C9B /* CrazySheepGameForest.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E053221C864C700583C9B /* CrazySheepGameForest.sks */; };
+		770E05C921C864C700583C9B /* CrazySheepGameDungeon.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E053321C864C700583C9B /* CrazySheepGameDungeon.sks */; };
+		770E05CA21C864C700583C9B /* CrazyCowGuideAngle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E053421C864C700583C9B /* CrazyCowGuideAngle.sks */; };
+		770E05CB21C864C700583C9B /* SheepProtectorChooseIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E053621C864C700583C9B /* SheepProtectorChooseIphone.sks */; };
+		770E05CC21C864C700583C9B /* CrazySheepGameFrozenIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E053721C864C700583C9B /* CrazySheepGameFrozenIphone.sks */; };
+		770E05CD21C864C700583C9B /* CrazySheepGameDungeonIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E053821C864C700583C9B /* CrazySheepGameDungeonIphone.sks */; };
+		770E05CE21C864C700583C9B /* CrazySheepGameForestIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E053921C864C700583C9B /* CrazySheepGameForestIphone.sks */; };
+		770E05CF21C864C700583C9B /* CrazySheepGameIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E053A21C864C700583C9B /* CrazySheepGameIphone.sks */; };
+		770E05D021C864C700583C9B /* SheepProtectorLaunchIphone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E053B21C864C700583C9B /* SheepProtectorLaunchIphone.sks */; };
+		770E05D121C864C700583C9B /* CrazyCowGuide1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E053C21C864C700583C9B /* CrazyCowGuide1.sks */; };
+		770E05D221C864C700583C9B /* CrazyCowGuide2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E053D21C864C700583C9B /* CrazyCowGuide2.sks */; };
+		770E05D321C864C700583C9B /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E053F21C864C700583C9B /* MyParticle.sks */; };
+		770E05D421C864C700583C9B /* RainParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E054021C864C700583C9B /* RainParticle.sks */; };
+		770E05D521C864C700583C9B /* FireParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E054121C864C700583C9B /* FireParticle.sks */; };
+		770E05D621C864C700583C9B /* CrazySheepGameFrozen.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E054221C864C700583C9B /* CrazySheepGameFrozen.sks */; };
+		770E05D721C864C700583C9B /* SheepProtectorChoose.sks in Resources */ = {isa = PBXBuildFile; fileRef = 770E054321C864C700583C9B /* SheepProtectorChoose.sks */; };
+		770E05D821C864C700583C9B /* GameControlCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E054421C864C700583C9B /* GameControlCenter.m */; };
+		770E05D921C864C700583C9B /* CrazySheep.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770E054521C864C700583C9B /* CrazySheep.xcassets */; };
+		770E064521C864E200583C9B /* LKActionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05DD21C864E100583C9B /* LKActionOperation.m */; };
+		770E064621C864E200583C9B /* LKGraphicExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05DF21C864E100583C9B /* LKGraphicExtend.m */; };
+		770E064721C864E200583C9B /* LKNumberExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05E221C864E100583C9B /* LKNumberExtend.m */; };
+		770E064821C864E200583C9B /* LKStoreDataExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05E321C864E100583C9B /* LKStoreDataExtend.m */; };
+		770E064921C864E200583C9B /* LKStringExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05E521C864E100583C9B /* LKStringExtend.m */; };
+		770E064A21C864E200583C9B /* LKArrayExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05E721C864E100583C9B /* LKArrayExtend.m */; };
+		770E064B21C864E200583C9B /* LKAudioCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05EA21C864E100583C9B /* LKAudioCenter.m */; };
+		770E064C21C864E200583C9B /* LapKanCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05EB21C864E100583C9B /* LapKanCenter.m */; };
+		770E064D21C864E200583C9B /* LKLevelCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05EC21C864E100583C9B /* LKLevelCenter.m */; };
+		770E064E21C864E200583C9B /* LKScoreCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05ED21C864E100583C9B /* LKScoreCenter.m */; };
+		770E064F21C864E200583C9B /* LKResourceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05EF21C864E100583C9B /* LKResourceCenter.m */; };
+		770E065021C864E200583C9B /* LKGenericCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05F021C864E100583C9B /* LKGenericCenter.m */; };
+		770E065121C864E200583C9B /* MissionObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05F621C864E100583C9B /* MissionObj.m */; };
+		770E065221C864E200583C9B /* LKAdCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05FB21C864E100583C9B /* LKAdCenter.m */; };
+		770E065321C864E200583C9B /* LKMoneyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05FC21C864E100583C9B /* LKMoneyCenter.m */; };
+		770E065421C864E200583C9B /* InAppObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E05FF21C864E100583C9B /* InAppObserver.m */; };
+		770E065521C864E200583C9B /* InAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E060221C864E100583C9B /* InAppManager.m */; };
+		770E065621C864E200583C9B /* LKProgressTimerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E060521C864E100583C9B /* LKProgressTimerNode.m */; };
+		770E065721C864E200583C9B /* LKProgressTimerForegroundCropNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E060821C864E100583C9B /* LKProgressTimerForegroundCropNode.m */; };
+		770E065821C864E200583C9B /* LKHeathBarCropNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E060B21C864E100583C9B /* LKHeathBarCropNode.m */; };
+		770E065921C864E200583C9B /* LKHeathBarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E060C21C864E100583C9B /* LKHeathBarNode.m */; };
+		770E065A21C864E200583C9B /* TileObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E061021C864E100583C9B /* TileObj.m */; };
+		770E065B21C864E200583C9B /* LKTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E061221C864E100583C9B /* LKTimingFunction.m */; };
+		770E065C21C864E200583C9B /* LKGraphicsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E061321C864E100583C9B /* LKGraphicsUtils.m */; };
+		770E065D21C864E200583C9B /* LKSKUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 770E061521C864E100583C9B /* LKSKUtils.mm */; };
+		770E065E21C864E200583C9B /* SKSpriteNode+LKExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E061A21C864E100583C9B /* SKSpriteNode+LKExtra.m */; };
+		770E065F21C864E200583C9B /* SKTEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E062021C864E100583C9B /* SKTEffects.m */; };
+		770E066021C864E200583C9B /* SKBlade.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E062121C864E100583C9B /* SKBlade.m */; };
+		770E066121C864E200583C9B /* SKEmitterNode+LKSKExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E062221C864E100583C9B /* SKEmitterNode+LKSKExtras.m */; };
+		770E066221C864E200583C9B /* SKAction+SKTSpecialEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E062421C864E100583C9B /* SKAction+SKTSpecialEffects.m */; };
+		770E066321C864E200583C9B /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E062521C864E100583C9B /* SKAction+SKTExtras.m */; };
+		770E066421C864E200583C9B /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E062A21C864E100583C9B /* SKNode+SKTExtras.m */; };
+		770E066521C864E200583C9B /* SKNode+SKTDebugDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E062C21C864E100583C9B /* SKNode+SKTDebugDraw.m */; };
+		770E066621C864E200583C9B /* LKRootScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E062F21C864E200583C9B /* LKRootScene.m */; };
+		770E066721C864E200583C9B /* LKRootMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E063021C864E200583C9B /* LKRootMenuScene.m */; };
+		770E066821C864E200583C9B /* LKRootCreditScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E063221C864E200583C9B /* LKRootCreditScene.m */; };
+		770E066921C864E200583C9B /* LKRootChapterScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E063821C864E200583C9B /* LKRootChapterScene.m */; };
+		770E066A21C864E200583C9B /* LKRootShopScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E063921C864E200583C9B /* LKRootShopScene.m */; };
+		770E066B21C864E200583C9B /* LKRootPlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E063B21C864E200583C9B /* LKRootPlayScene.m */; };
+		770E066C21C864E200583C9B /* GameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E063E21C864E200583C9B /* GameState.m */; };
+		770E066D21C864E200583C9B /* LKRootGuideScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E064021C864E200583C9B /* LKRootGuideScene.m */; };
+		770E066E21C864E200583C9B /* LKRootShowroomScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E064121C864E200583C9B /* LKRootShowroomScene.m */; };
+		770E066F21C864E200583C9B /* LKRootChooseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E064221C864E200583C9B /* LKRootChooseScene.m */; };
+		770E067021C864E200583C9B /* ListMonsters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 770E064421C864E200583C9B /* ListMonsters.plist */; };
+		777D5AB821D523AF00EC6459 /* SheepMission2.m in Sources */ = {isa = PBXBuildFile; fileRef = 777D5AB721D523AF00EC6459 /* SheepMission2.m */; };
+		777D5AC521D5273400EC6459 /* SheepProtectorDungeonLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 777D5ABA21D5273400EC6459 /* SheepProtectorDungeonLevel.m */; };
+		777D5AC621D5273400EC6459 /* SheepProtectorFrozenLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 777D5ABB21D5273400EC6459 /* SheepProtectorFrozenLevel.m */; };
+		777D5AC721D5273400EC6459 /* WaveDataForRaider.plist in Resources */ = {isa = PBXBuildFile; fileRef = 777D5ABC21D5273400EC6459 /* WaveDataForRaider.plist */; };
+		777D5AC821D5273400EC6459 /* SheepProtectorForestLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 777D5ABD21D5273400EC6459 /* SheepProtectorForestLevel.m */; };
+		777D5AC921D5273400EC6459 /* WaveDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 777D5ABE21D5273400EC6459 /* WaveDataCenter.m */; };
+		777D5ACA21D5273400EC6459 /* SheepProtectorOldFarmLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 777D5ABF21D5273400EC6459 /* SheepProtectorOldFarmLevel.m */; };
+		777D5ACD21D5A68D00EC6459 /* SheepMission3.m in Sources */ = {isa = PBXBuildFile; fileRef = 777D5ACC21D5A68D00EC6459 /* SheepMission3.m */; };
+		777D5AD021D5A6A300EC6459 /* SheepMission4.m in Sources */ = {isa = PBXBuildFile; fileRef = 777D5ACF21D5A6A300EC6459 /* SheepMission4.m */; };
+		777D5AD221D7AE4500EC6459 /* SceneUpgradeCharacter.sks in Resources */ = {isa = PBXBuildFile; fileRef = 777D5AD121D7AE4500EC6459 /* SceneUpgradeCharacter.sks */; };
+		7787282121C942B200FFD392 /* SceneSheep.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7787282021C942B200FFD392 /* SceneSheep.sks */; };
+		7787282421C9433B00FFD392 /* SceneSheep.m in Sources */ = {isa = PBXBuildFile; fileRef = 7787282321C9433B00FFD392 /* SceneSheep.m */; };
+		7787282821C9958300FFD392 /* CattleSheep.m in Sources */ = {isa = PBXBuildFile; fileRef = 7787282721C9958300FFD392 /* CattleSheep.m */; };
+		7787282B21C9FB7300FFD392 /* RaiseSheep.m in Sources */ = {isa = PBXBuildFile; fileRef = 7787282A21C9FB7300FFD392 /* RaiseSheep.m */; };
+		7787282D21CC857000FFD392 /* CoinDropSound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7787282C21CC857000FFD392 /* CoinDropSound.m4a */; };
+		77C65D1A21D1FD7500FE7767 /* SceneChooseMission.sks in Resources */ = {isa = PBXBuildFile; fileRef = 77C65D1921D1FD7500FE7767 /* SceneChooseMission.sks */; };
+		77C65D1D21D1FD9500FE7767 /* SceneChooseMission.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C65D1C21D1FD9500FE7767 /* SceneChooseMission.m */; };
+		77C65D2021D2008400FE7767 /* SceneChooseCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C65D1F21D2008400FE7767 /* SceneChooseCharacter.m */; };
+		77C65D2221D20CF100FE7767 /* SceneChooseCharacter.sks in Resources */ = {isa = PBXBuildFile; fileRef = 77C65D2121D20CF100FE7767 /* SceneChooseCharacter.sks */; };
+		77C65D2621D4AE6200FE7767 /* SheepMission1.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C65D2521D4AE6200FE7767 /* SheepMission1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		770E045421C8647D00583C9B /* MonsterRaisers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterRaisers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		770E045721C8647D00583C9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		770E045821C8647D00583C9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		770E045A21C8647D00583C9B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		770E045C21C8647D00583C9B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		770E045E21C8647D00583C9B /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		770E045F21C8647D00583C9B /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		770E046121C8647D00583C9B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		770E046221C8647D00583C9B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		770E046521C8647D00583C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		770E046721C8647E00583C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		770E046A21C8647E00583C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		770E046C21C8647E00583C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		770E046D21C8647E00583C9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		770E047621C864A800583C9B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		770E047721C864A800583C9B /* LapKanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LapKanViewController.h; sourceTree = "<group>"; };
+		770E047821C864A800583C9B /* LKLauchingScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKLauchingScene.m; sourceTree = "<group>"; };
+		770E047921C864A800583C9B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		770E047A21C864A800583C9B /* LapKanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LapKanViewController.m; sourceTree = "<group>"; };
+		770E047B21C864A800583C9B /* LKLauchingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKLauchingScene.h; sourceTree = "<group>"; };
+		770E047D21C864A800583C9B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		770E047E21C864A800583C9B /* LKLauchingScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKLauchingScene.sks; sourceTree = "<group>"; };
+		770E047F21C864A800583C9B /* LKLauchingSceneIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKLauchingSceneIphone.sks; sourceTree = "<group>"; };
+		770E048121C864BD00583C9B /* TinyControlCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyControlCenter.h; sourceTree = "<group>"; };
+		770E048321C864BD00583C9B /* TinyArmy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyArmy.h; sourceTree = "<group>"; };
+		770E048421C864BD00583C9B /* TinyCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyCharacter.m; sourceTree = "<group>"; };
+		770E048521C864BD00583C9B /* TinyAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyAnimal.h; sourceTree = "<group>"; };
+		770E048621C864BD00583C9B /* TinyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyObject.h; sourceTree = "<group>"; };
+		770E048721C864BD00583C9B /* TinyEnemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyEnemy.m; sourceTree = "<group>"; };
+		770E048821C864BD00583C9B /* TinyArmy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyArmy.m; sourceTree = "<group>"; };
+		770E048921C864BD00583C9B /* TinyCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyCharacter.h; sourceTree = "<group>"; };
+		770E048A21C864BD00583C9B /* TinyEnemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyEnemy.h; sourceTree = "<group>"; };
+		770E048B21C864BD00583C9B /* TinyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyObject.m; sourceTree = "<group>"; };
+		770E048C21C864BD00583C9B /* TinyAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyAnimal.m; sourceTree = "<group>"; };
+		770E048D21C864BD00583C9B /* GeneralAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = GeneralAsset.xcassets; sourceTree = "<group>"; };
+		770E048F21C864BD00583C9B /* TinyCharState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyCharState.m; sourceTree = "<group>"; };
+		770E049021C864BD00583C9B /* TinyCharState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyCharState.h; sourceTree = "<group>"; };
+		770E049221C864BD00583C9B /* TinyExecutioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyExecutioner.m; sourceTree = "<group>"; };
+		770E049321C864BD00583C9B /* TinyPriest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyPriest.h; sourceTree = "<group>"; };
+		770E049421C864BD00583C9B /* TinyArcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyArcher.m; sourceTree = "<group>"; };
+		770E049521C864BD00583C9B /* TinySheep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinySheep.m; sourceTree = "<group>"; };
+		770E049621C864BD00583C9B /* TinyKnight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyKnight.h; sourceTree = "<group>"; };
+		770E049721C864BD00583C9B /* TinyExecutioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyExecutioner.h; sourceTree = "<group>"; };
+		770E049821C864BD00583C9B /* TinySheep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinySheep.h; sourceTree = "<group>"; };
+		770E049921C864BD00583C9B /* TinyArcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyArcher.h; sourceTree = "<group>"; };
+		770E049A21C864BD00583C9B /* TinyPriest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyPriest.m; sourceTree = "<group>"; };
+		770E049B21C864BD00583C9B /* TinyKnight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyKnight.m; sourceTree = "<group>"; };
+		770E049D21C864BD00583C9B /* TinyGoblin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyGoblin.h; sourceTree = "<group>"; };
+		770E049E21C864BD00583C9B /* TinyCyclop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyCyclop.m; sourceTree = "<group>"; };
+		770E049F21C864BD00583C9B /* TinyOrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyOrc.h; sourceTree = "<group>"; };
+		770E04A021C864BD00583C9B /* TinyOgre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyOgre.h; sourceTree = "<group>"; };
+		770E04A121C864BD00583C9B /* TinyWolf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyWolf.h; sourceTree = "<group>"; };
+		770E04A221C864BD00583C9B /* TinyCyclop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyCyclop.h; sourceTree = "<group>"; };
+		770E04A321C864BD00583C9B /* TinyGoblin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyGoblin.m; sourceTree = "<group>"; };
+		770E04A421C864BD00583C9B /* TinyOgre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyOgre.m; sourceTree = "<group>"; };
+		770E04A521C864BD00583C9B /* TinyOrc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyOrc.m; sourceTree = "<group>"; };
+		770E04A621C864BD00583C9B /* TinyWolf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyWolf.m; sourceTree = "<group>"; };
+		770E04A721C864BD00583C9B /* TinyControlCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyControlCenter.m; sourceTree = "<group>"; };
+		770E04A821C864BD00583C9B /* TinyMapSet.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TinyMapSet.xcassets; sourceTree = "<group>"; };
+		770E04AB21C864BD00583C9B /* Wolf2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Wolf2.atlas; sourceTree = "<group>"; };
+		770E04AC21C864BD00583C9B /* Ogre1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Ogre1.atlas; sourceTree = "<group>"; };
+		770E04AD21C864BD00583C9B /* Ogre3.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Ogre3.atlas; sourceTree = "<group>"; };
+		770E04AE21C864BD00583C9B /* Wolf1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Wolf1.atlas; sourceTree = "<group>"; };
+		770E04AF21C864BD00583C9B /* Wolf3.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Wolf3.atlas; sourceTree = "<group>"; };
+		770E04B021C864BD00583C9B /* Ogre2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Ogre2.atlas; sourceTree = "<group>"; };
+		770E04B121C864BD00583C9B /* Sheep2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sheep2.atlas; sourceTree = "<group>"; };
+		770E04B221C864BD00583C9B /* Cyclop2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Cyclop2.atlas; sourceTree = "<group>"; };
+		770E04B321C864BD00583C9B /* Goblin2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Goblin2.atlas; sourceTree = "<group>"; };
+		770E04B421C864BD00583C9B /* Sheep3.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sheep3.atlas; sourceTree = "<group>"; };
+		770E04B521C864BD00583C9B /* Sheep1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sheep1.atlas; sourceTree = "<group>"; };
+		770E04B621C864BD00583C9B /* Cyclop1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Cyclop1.atlas; sourceTree = "<group>"; };
+		770E04B721C864BD00583C9B /* Goblin3.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Goblin3.atlas; sourceTree = "<group>"; };
+		770E04B821C864BD00583C9B /* Cyclop3.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Cyclop3.atlas; sourceTree = "<group>"; };
+		770E04B921C864BD00583C9B /* Goblin1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Goblin1.atlas; sourceTree = "<group>"; };
+		770E04BB21C864BD00583C9B /* Executioner3.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Executioner3.atlas; sourceTree = "<group>"; };
+		770E04BC21C864BD00583C9B /* Archer3.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Archer3.atlas; sourceTree = "<group>"; };
+		770E04BD21C864BD00583C9B /* PriestRed.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PriestRed.atlas; sourceTree = "<group>"; };
+		770E04BE21C864BD00583C9B /* Warrior3.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Warrior3.atlas; sourceTree = "<group>"; };
+		770E04C021C864C100583C9B /* TileMapSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TileMapSet.sks; sourceTree = "<group>"; };
+		770E04C121C864C100583C9B /* TileMapAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TileMapAsset.xcassets; sourceTree = "<group>"; };
+		770E04C321C864C200583C9B /* CrazyCow@2x.skf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrazyCow@2x.skf"; sourceTree = "<group>"; };
+		770E04C521C864C200583C9B /* SSBitmapGlyph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBitmapGlyph.m; sourceTree = "<group>"; };
+		770E04C621C864C200583C9B /* SSBitmapFontLabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBitmapFontLabelNode.h; sourceTree = "<group>"; };
+		770E04C721C864C200583C9B /* LKGlyphCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKGlyphCenter.m; sourceTree = "<group>"; };
+		770E04C821C864C200583C9B /* SSBitmapFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBitmapFont.h; sourceTree = "<group>"; };
+		770E04C921C864C200583C9B /* SSBitmapFontLabelNode-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSBitmapFontLabelNode-private.h"; sourceTree = "<group>"; };
+		770E04CA21C864C200583C9B /* SSBitmapFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBitmapFont.m; sourceTree = "<group>"; };
+		770E04CB21C864C200583C9B /* LKGlyphCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKGlyphCenter.h; sourceTree = "<group>"; };
+		770E04CC21C864C200583C9B /* SSBitmapFontLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBitmapFontLabelNode.m; sourceTree = "<group>"; };
+		770E04CD21C864C200583C9B /* SSBitmapGlyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBitmapGlyph.h; sourceTree = "<group>"; };
+		770E04CE21C864C200583C9B /* Structures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Structures.h; sourceTree = "<group>"; };
+		770E04CF21C864C200583C9B /* CrazyCow-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CrazyCow-outline.png"; sourceTree = "<group>"; };
+		770E04D021C864C200583C9B /* CrazyCow.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = CrazyCow.atlas; sourceTree = "<group>"; };
+		770E04D121C864C300583C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		770E04D321C864C300583C9B /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		770E04D421C864C300583C9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		770E04D521C864C300583C9B /* AdControlScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AdControlScene.sks; sourceTree = "<group>"; };
+		770E04D621C864C300583C9B /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		770E04D921C864C600583C9B /* BoardLose.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BoardLose.sks; sourceTree = "<group>"; };
+		770E04DA21C864C600583C9B /* BoardPause.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BoardPause.sks; sourceTree = "<group>"; };
+		770E04DB21C864C600583C9B /* BoardWin.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BoardWin.sks; sourceTree = "<group>"; };
+		770E04DC21C864C600583C9B /* BoardEnd.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BoardEnd.sks; sourceTree = "<group>"; };
+		770E04DD21C864C600583C9B /* ParadiseTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParadiseTileSet.sks; sourceTree = "<group>"; };
+		770E04DE21C864C600583C9B /* MainButton.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MainButton.xcassets; sourceTree = "<group>"; };
+		770E04E021C864C600583C9B /* LKRootChooseBackIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootChooseBackIphone.sks; sourceTree = "<group>"; };
+		770E04E121C864C600583C9B /* LKRootChooseBack.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootChooseBack.sks; sourceTree = "<group>"; };
+		770E04E221C864C600583C9B /* LKRootBasicHUDIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootBasicHUDIphone.sks; sourceTree = "<group>"; };
+		770E04E321C864C600583C9B /* LKRootPlayHUDIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootPlayHUDIphone.sks; sourceTree = "<group>"; };
+		770E04E421C864C600583C9B /* LKRootChooseHUDIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootChooseHUDIphone.sks; sourceTree = "<group>"; };
+		770E04E521C864C600583C9B /* LKRootChooseHUD.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootChooseHUD.sks; sourceTree = "<group>"; };
+		770E04E621C864C600583C9B /* LKRootBasicHUD.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootBasicHUD.sks; sourceTree = "<group>"; };
+		770E04E721C864C600583C9B /* LKRootPlayHUD.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootPlayHUD.sks; sourceTree = "<group>"; };
+		770E04E921C864C600583C9B /* LKRootPlayHUDIphoneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootPlayHUDIphoneL.sks; sourceTree = "<group>"; };
+		770E04EA21C864C600583C9B /* LKRootBasicHUDIphoneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootBasicHUDIphoneL.sks; sourceTree = "<group>"; };
+		770E04EB21C864C600583C9B /* LKRootChooseHUDL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootChooseHUDL.sks; sourceTree = "<group>"; };
+		770E04EC21C864C600583C9B /* LKRootBasicHUDL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootBasicHUDL.sks; sourceTree = "<group>"; };
+		770E04ED21C864C600583C9B /* LKRootChooseBackL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootChooseBackL.sks; sourceTree = "<group>"; };
+		770E04EE21C864C600583C9B /* LKRootChooseBackIphoneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootChooseBackIphoneL.sks; sourceTree = "<group>"; };
+		770E04EF21C864C600583C9B /* LKRootPlayHUDL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootPlayHUDL.sks; sourceTree = "<group>"; };
+		770E04F021C864C600583C9B /* LKRootChooseHUDIphoneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootChooseHUDIphoneL.sks; sourceTree = "<group>"; };
+		770E04F221C864C600583C9B /* DimboRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DimboRegular.ttf; sourceTree = "<group>"; };
+		770E04F321C864C600583C9B /* Water_Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Water_Shader.fsh; sourceTree = "<group>"; };
+		770E04F421C864C600583C9B /* shader_water_reflection.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader_water_reflection.fsh; sourceTree = "<group>"; };
+		770E04F521C864C600583C9B /* shader_water_movement.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader_water_movement.fsh; sourceTree = "<group>"; };
+		770E04F621C864C600583C9B /* TitanOne.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TitanOne.ttf; sourceTree = "<group>"; };
+		770E04F721C864C600583C9B /* MainSet.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MainSet.xcassets; sourceTree = "<group>"; };
+		770E04F921C864C600583C9B /* LKRootChapterScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootChapterScene.sks; sourceTree = "<group>"; };
+		770E04FA21C864C600583C9B /* LKRootGuideSceneIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootGuideSceneIphone.sks; sourceTree = "<group>"; };
+		770E04FB21C864C600583C9B /* LKRootMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootMenuScene.sks; sourceTree = "<group>"; };
+		770E04FC21C864C600583C9B /* LKRootMenuSceneIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootMenuSceneIphone.sks; sourceTree = "<group>"; };
+		770E04FD21C864C600583C9B /* LKRootCreditScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootCreditScene.sks; sourceTree = "<group>"; };
+		770E04FE21C864C600583C9B /* LKRootChapterSceneIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootChapterSceneIphone.sks; sourceTree = "<group>"; };
+		770E04FF21C864C600583C9B /* LKRootGuideScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootGuideScene.sks; sourceTree = "<group>"; };
+		770E050021C864C600583C9B /* LKRootShopCoinScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootShopCoinScene.sks; sourceTree = "<group>"; };
+		770E050121C864C600583C9B /* LKRootShopCoinSceneIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootShopCoinSceneIphone.sks; sourceTree = "<group>"; };
+		770E050221C864C600583C9B /* LKRootCreditSceneIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootCreditSceneIphone.sks; sourceTree = "<group>"; };
+		770E050321C864C600583C9B /* LKRootPlayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootPlayScene.sks; sourceTree = "<group>"; };
+		770E050521C864C600583C9B /* LKRootCreditSceneIphoneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootCreditSceneIphoneL.sks; sourceTree = "<group>"; };
+		770E050621C864C600583C9B /* LKRootPlaySceneIphoneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootPlaySceneIphoneL.sks; sourceTree = "<group>"; };
+		770E050721C864C600583C9B /* LKRootCreditSceneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootCreditSceneL.sks; sourceTree = "<group>"; };
+		770E050821C864C600583C9B /* LKRootGuideSceneIphoneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootGuideSceneIphoneL.sks; sourceTree = "<group>"; };
+		770E050921C864C600583C9B /* LKRootChapterSceneIphoneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootChapterSceneIphoneL.sks; sourceTree = "<group>"; };
+		770E050A21C864C600583C9B /* LKRootPlaySceneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootPlaySceneL.sks; sourceTree = "<group>"; };
+		770E050B21C864C600583C9B /* LKRootShopCoinSceneIphoneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootShopCoinSceneIphoneL.sks; sourceTree = "<group>"; };
+		770E050C21C864C600583C9B /* LKRootMenuSceneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootMenuSceneL.sks; sourceTree = "<group>"; };
+		770E050D21C864C600583C9B /* LKRootShowroomL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootShowroomL.sks; sourceTree = "<group>"; };
+		770E050E21C864C600583C9B /* LKRootShopCoinSceneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootShopCoinSceneL.sks; sourceTree = "<group>"; };
+		770E050F21C864C600583C9B /* LKRootGuideSceneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootGuideSceneL.sks; sourceTree = "<group>"; };
+		770E051021C864C600583C9B /* LKRootMenuSceneIphoneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootMenuSceneIphoneL.sks; sourceTree = "<group>"; };
+		770E051121C864C600583C9B /* LKRootChapterSceneL.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootChapterSceneL.sks; sourceTree = "<group>"; };
+		770E051221C864C600583C9B /* LKRootShowroom.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootShowroom.sks; sourceTree = "<group>"; };
+		770E051321C864C600583C9B /* LKRootPlaySceneIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LKRootPlaySceneIphone.sks; sourceTree = "<group>"; };
+		770E051521C864C600583C9B /* SmokeEffect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SmokeEffect.sks; sourceTree = "<group>"; };
+		770E051621C864C600583C9B /* FlyfireEffect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FlyfireEffect.sks; sourceTree = "<group>"; };
+		770E051721C864C600583C9B /* ItemList.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ItemList.atlas; sourceTree = "<group>"; };
+		770E051921C864C600583C9B /* WrongSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WrongSound.wav; sourceTree = "<group>"; };
+		770E051A21C864C600583C9B /* HitSound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = HitSound.m4a; sourceTree = "<group>"; };
+		770E051B21C864C600583C9B /* DellFarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DellFarm.mp3; sourceTree = "<group>"; };
+		770E051C21C864C600583C9B /* FarmSong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = FarmSong.m4a; sourceTree = "<group>"; };
+		770E051D21C864C600583C9B /* GetOutside.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GetOutside.mp3; sourceTree = "<group>"; };
+		770E051E21C864C600583C9B /* ButtonClickSound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ButtonClickSound.m4a; sourceTree = "<group>"; };
+		770E051F21C864C600583C9B /* AboutThatOldie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AboutThatOldie.mp3; sourceTree = "<group>"; };
+		770E052021C864C600583C9B /* CorrectSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CorrectSound.wav; sourceTree = "<group>"; };
+		770E052221C864C700583C9B /* GameStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStore.h; sourceTree = "<group>"; };
+		770E052421C864C700583C9B /* SheepProtectorPlayDrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepProtectorPlayDrag.h; sourceTree = "<group>"; };
+		770E052521C864C700583C9B /* SheepProtectorLaunch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheepProtectorLaunch.m; sourceTree = "<group>"; };
+		770E052621C864C700583C9B /* CrazySheepGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazySheepGame.m; sourceTree = "<group>"; };
+		770E052721C864C700583C9B /* SheepProtectorChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheepProtectorChoose.m; sourceTree = "<group>"; };
+		770E052821C864C700583C9B /* SheepProtectorPlayDrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheepProtectorPlayDrag.m; sourceTree = "<group>"; };
+		770E052921C864C700583C9B /* SheepProtectorChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepProtectorChoose.h; sourceTree = "<group>"; };
+		770E052A21C864C700583C9B /* SheepProtectorLaunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepProtectorLaunch.h; sourceTree = "<group>"; };
+		770E052B21C864C700583C9B /* CrazySheepGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazySheepGame.h; sourceTree = "<group>"; };
+		770E052C21C864C700583C9B /* GameControlCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameControlCenter.h; sourceTree = "<group>"; };
+		770E052D21C864C700583C9B /* GameStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameStore.m; sourceTree = "<group>"; };
+		770E052F21C864C700583C9B /* CrazySheepGame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CrazySheepGame.sks; sourceTree = "<group>"; };
+		770E053021C864C700583C9B /* SheepProtectorPlayDrag.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SheepProtectorPlayDrag.sks; sourceTree = "<group>"; };
+		770E053121C864C700583C9B /* SheepProtectorLaunch.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SheepProtectorLaunch.sks; sourceTree = "<group>"; };
+		770E053221C864C700583C9B /* CrazySheepGameForest.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CrazySheepGameForest.sks; sourceTree = "<group>"; };
+		770E053321C864C700583C9B /* CrazySheepGameDungeon.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CrazySheepGameDungeon.sks; sourceTree = "<group>"; };
+		770E053421C864C700583C9B /* CrazyCowGuideAngle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CrazyCowGuideAngle.sks; sourceTree = "<group>"; };
+		770E053621C864C700583C9B /* SheepProtectorChooseIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SheepProtectorChooseIphone.sks; sourceTree = "<group>"; };
+		770E053721C864C700583C9B /* CrazySheepGameFrozenIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CrazySheepGameFrozenIphone.sks; sourceTree = "<group>"; };
+		770E053821C864C700583C9B /* CrazySheepGameDungeonIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CrazySheepGameDungeonIphone.sks; sourceTree = "<group>"; };
+		770E053921C864C700583C9B /* CrazySheepGameForestIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CrazySheepGameForestIphone.sks; sourceTree = "<group>"; };
+		770E053A21C864C700583C9B /* CrazySheepGameIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CrazySheepGameIphone.sks; sourceTree = "<group>"; };
+		770E053B21C864C700583C9B /* SheepProtectorLaunchIphone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SheepProtectorLaunchIphone.sks; sourceTree = "<group>"; };
+		770E053C21C864C700583C9B /* CrazyCowGuide1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CrazyCowGuide1.sks; sourceTree = "<group>"; };
+		770E053D21C864C700583C9B /* CrazyCowGuide2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CrazyCowGuide2.sks; sourceTree = "<group>"; };
+		770E053F21C864C700583C9B /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		770E054021C864C700583C9B /* RainParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainParticle.sks; sourceTree = "<group>"; };
+		770E054121C864C700583C9B /* FireParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticle.sks; sourceTree = "<group>"; };
+		770E054221C864C700583C9B /* CrazySheepGameFrozen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CrazySheepGameFrozen.sks; sourceTree = "<group>"; };
+		770E054321C864C700583C9B /* SheepProtectorChoose.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SheepProtectorChoose.sks; sourceTree = "<group>"; };
+		770E054421C864C700583C9B /* GameControlCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameControlCenter.m; sourceTree = "<group>"; };
+		770E054521C864C700583C9B /* CrazySheep.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CrazySheep.xcassets; sourceTree = "<group>"; };
+		770E05DD21C864E100583C9B /* LKActionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKActionOperation.m; sourceTree = "<group>"; };
+		770E05DE21C864E100583C9B /* LKStringExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKStringExtend.h; sourceTree = "<group>"; };
+		770E05DF21C864E100583C9B /* LKGraphicExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKGraphicExtend.m; sourceTree = "<group>"; };
+		770E05E021C864E100583C9B /* LKStoreDataExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKStoreDataExtend.h; sourceTree = "<group>"; };
+		770E05E121C864E100583C9B /* LKArrayExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKArrayExtend.h; sourceTree = "<group>"; };
+		770E05E221C864E100583C9B /* LKNumberExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKNumberExtend.m; sourceTree = "<group>"; };
+		770E05E321C864E100583C9B /* LKStoreDataExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKStoreDataExtend.m; sourceTree = "<group>"; };
+		770E05E421C864E100583C9B /* LKGraphicExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKGraphicExtend.h; sourceTree = "<group>"; };
+		770E05E521C864E100583C9B /* LKStringExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKStringExtend.m; sourceTree = "<group>"; };
+		770E05E621C864E100583C9B /* LKActionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKActionOperation.h; sourceTree = "<group>"; };
+		770E05E721C864E100583C9B /* LKArrayExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKArrayExtend.m; sourceTree = "<group>"; };
+		770E05E821C864E100583C9B /* LKNumberExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKNumberExtend.h; sourceTree = "<group>"; };
+		770E05EA21C864E100583C9B /* LKAudioCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKAudioCenter.m; sourceTree = "<group>"; };
+		770E05EB21C864E100583C9B /* LapKanCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LapKanCenter.m; sourceTree = "<group>"; };
+		770E05EC21C864E100583C9B /* LKLevelCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKLevelCenter.m; sourceTree = "<group>"; };
+		770E05ED21C864E100583C9B /* LKScoreCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKScoreCenter.m; sourceTree = "<group>"; };
+		770E05EE21C864E100583C9B /* LKAdCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKAdCenter.h; sourceTree = "<group>"; };
+		770E05EF21C864E100583C9B /* LKResourceCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKResourceCenter.m; sourceTree = "<group>"; };
+		770E05F021C864E100583C9B /* LKGenericCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKGenericCenter.m; sourceTree = "<group>"; };
+		770E05F121C864E100583C9B /* LKMoneyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKMoneyCenter.h; sourceTree = "<group>"; };
+		770E05F221C864E100583C9B /* LapKanCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LapKanCenter.h; sourceTree = "<group>"; };
+		770E05F321C864E100583C9B /* LKAudioCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKAudioCenter.h; sourceTree = "<group>"; };
+		770E05F621C864E100583C9B /* MissionObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MissionObj.m; sourceTree = "<group>"; };
+		770E05F721C864E100583C9B /* MissionObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MissionObj.h; sourceTree = "<group>"; };
+		770E05F821C864E100583C9B /* LKScoreCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKScoreCenter.h; sourceTree = "<group>"; };
+		770E05F921C864E100583C9B /* LKLevelCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKLevelCenter.h; sourceTree = "<group>"; };
+		770E05FA21C864E100583C9B /* LKResourceCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKResourceCenter.h; sourceTree = "<group>"; };
+		770E05FB21C864E100583C9B /* LKAdCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKAdCenter.m; sourceTree = "<group>"; };
+		770E05FC21C864E100583C9B /* LKMoneyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKMoneyCenter.m; sourceTree = "<group>"; };
+		770E05FD21C864E100583C9B /* LKGenericCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKGenericCenter.h; sourceTree = "<group>"; };
+		770E05FF21C864E100583C9B /* InAppObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppObserver.m; sourceTree = "<group>"; };
+		770E060021C864E100583C9B /* InAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppManager.h; sourceTree = "<group>"; };
+		770E060121C864E100583C9B /* InAppObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppObserver.h; sourceTree = "<group>"; };
+		770E060221C864E100583C9B /* InAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppManager.m; sourceTree = "<group>"; };
+		770E060521C864E100583C9B /* LKProgressTimerNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKProgressTimerNode.m; sourceTree = "<group>"; };
+		770E060621C864E100583C9B /* LKProgressTimerForegroundCropNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKProgressTimerForegroundCropNode.h; sourceTree = "<group>"; };
+		770E060721C864E100583C9B /* LKProgressTimerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKProgressTimerNode.h; sourceTree = "<group>"; };
+		770E060821C864E100583C9B /* LKProgressTimerForegroundCropNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKProgressTimerForegroundCropNode.m; sourceTree = "<group>"; };
+		770E060A21C864E100583C9B /* LKHeathBarNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKHeathBarNode.h; sourceTree = "<group>"; };
+		770E060B21C864E100583C9B /* LKHeathBarCropNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKHeathBarCropNode.m; sourceTree = "<group>"; };
+		770E060C21C864E100583C9B /* LKHeathBarNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKHeathBarNode.m; sourceTree = "<group>"; };
+		770E060D21C864E100583C9B /* LKHeathBarCropNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKHeathBarCropNode.h; sourceTree = "<group>"; };
+		770E060F21C864E100583C9B /* TileObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileObj.h; sourceTree = "<group>"; };
+		770E061021C864E100583C9B /* TileObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileObj.m; sourceTree = "<group>"; };
+		770E061221C864E100583C9B /* LKTimingFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKTimingFunction.m; sourceTree = "<group>"; };
+		770E061321C864E100583C9B /* LKGraphicsUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKGraphicsUtils.m; sourceTree = "<group>"; };
+		770E061421C864E100583C9B /* LKSKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSKUtils.h; sourceTree = "<group>"; };
+		770E061521C864E100583C9B /* LKSKUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LKSKUtils.mm; sourceTree = "<group>"; };
+		770E061621C864E100583C9B /* LKGraphicsUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKGraphicsUtils.h; sourceTree = "<group>"; };
+		770E061721C864E100583C9B /* LKTimingFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKTimingFunction.h; sourceTree = "<group>"; };
+		770E061A21C864E100583C9B /* SKSpriteNode+LKExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKSpriteNode+LKExtra.m"; sourceTree = "<group>"; };
+		770E061B21C864E100583C9B /* SKSpriteNode+LKExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKSpriteNode+LKExtra.h"; sourceTree = "<group>"; };
+		770E061D21C864E100583C9B /* SKEmitterNode+LKSKExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+LKSKExtras.h"; sourceTree = "<group>"; };
+		770E061E21C864E100583C9B /* SKBlade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBlade.h; sourceTree = "<group>"; };
+		770E061F21C864E100583C9B /* SKTEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTEffects.h; sourceTree = "<group>"; };
+		770E062021C864E100583C9B /* SKTEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTEffects.m; sourceTree = "<group>"; };
+		770E062121C864E100583C9B /* SKBlade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBlade.m; sourceTree = "<group>"; };
+		770E062221C864E100583C9B /* SKEmitterNode+LKSKExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+LKSKExtras.m"; sourceTree = "<group>"; };
+		770E062421C864E100583C9B /* SKAction+SKTSpecialEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTSpecialEffects.m"; sourceTree = "<group>"; };
+		770E062521C864E100583C9B /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
+		770E062621C864E100583C9B /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
+		770E062721C864E100583C9B /* SKAction+SKTSpecialEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTSpecialEffects.h"; sourceTree = "<group>"; };
+		770E062921C864E100583C9B /* SKNode+SKTDebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTDebugDraw.h"; sourceTree = "<group>"; };
+		770E062A21C864E100583C9B /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
+		770E062B21C864E100583C9B /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
+		770E062C21C864E100583C9B /* SKNode+SKTDebugDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTDebugDraw.m"; sourceTree = "<group>"; };
+		770E062E21C864E200583C9B /* LKRootChapterScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKRootChapterScene.h; sourceTree = "<group>"; };
+		770E062F21C864E200583C9B /* LKRootScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKRootScene.m; sourceTree = "<group>"; };
+		770E063021C864E200583C9B /* LKRootMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKRootMenuScene.m; sourceTree = "<group>"; };
+		770E063121C864E200583C9B /* LKRootShopScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKRootShopScene.h; sourceTree = "<group>"; };
+		770E063221C864E200583C9B /* LKRootCreditScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKRootCreditScene.m; sourceTree = "<group>"; };
+		770E063321C864E200583C9B /* LKRootPlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKRootPlayScene.h; sourceTree = "<group>"; };
+		770E063421C864E200583C9B /* LKRootChooseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKRootChooseScene.h; sourceTree = "<group>"; };
+		770E063521C864E200583C9B /* LKRootGuideScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKRootGuideScene.h; sourceTree = "<group>"; };
+		770E063621C864E200583C9B /* LKRootShowroomScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKRootShowroomScene.h; sourceTree = "<group>"; };
+		770E063721C864E200583C9B /* LKRootScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKRootScene.h; sourceTree = "<group>"; };
+		770E063821C864E200583C9B /* LKRootChapterScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKRootChapterScene.m; sourceTree = "<group>"; };
+		770E063921C864E200583C9B /* LKRootShopScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKRootShopScene.m; sourceTree = "<group>"; };
+		770E063A21C864E200583C9B /* LKRootMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKRootMenuScene.h; sourceTree = "<group>"; };
+		770E063B21C864E200583C9B /* LKRootPlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKRootPlayScene.m; sourceTree = "<group>"; };
+		770E063D21C864E200583C9B /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		770E063E21C864E200583C9B /* GameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameState.m; sourceTree = "<group>"; };
+		770E063F21C864E200583C9B /* LKRootCreditScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKRootCreditScene.h; sourceTree = "<group>"; };
+		770E064021C864E200583C9B /* LKRootGuideScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKRootGuideScene.m; sourceTree = "<group>"; };
+		770E064121C864E200583C9B /* LKRootShowroomScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKRootShowroomScene.m; sourceTree = "<group>"; };
+		770E064221C864E200583C9B /* LKRootChooseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKRootChooseScene.m; sourceTree = "<group>"; };
+		770E064421C864E200583C9B /* ListMonsters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ListMonsters.plist; sourceTree = "<group>"; };
+		777D5AB621D523AF00EC6459 /* SheepMission2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SheepMission2.h; sourceTree = "<group>"; };
+		777D5AB721D523AF00EC6459 /* SheepMission2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheepMission2.m; sourceTree = "<group>"; };
+		777D5ABA21D5273400EC6459 /* SheepProtectorDungeonLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheepProtectorDungeonLevel.m; sourceTree = "<group>"; };
+		777D5ABB21D5273400EC6459 /* SheepProtectorFrozenLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheepProtectorFrozenLevel.m; sourceTree = "<group>"; };
+		777D5ABC21D5273400EC6459 /* WaveDataForRaider.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WaveDataForRaider.plist; sourceTree = "<group>"; };
+		777D5ABD21D5273400EC6459 /* SheepProtectorForestLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheepProtectorForestLevel.m; sourceTree = "<group>"; };
+		777D5ABE21D5273400EC6459 /* WaveDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveDataCenter.m; sourceTree = "<group>"; };
+		777D5ABF21D5273400EC6459 /* SheepProtectorOldFarmLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheepProtectorOldFarmLevel.m; sourceTree = "<group>"; };
+		777D5AC021D5273400EC6459 /* SheepProtectorFrozenLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepProtectorFrozenLevel.h; sourceTree = "<group>"; };
+		777D5AC121D5273400EC6459 /* SheepProtectorDungeonLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepProtectorDungeonLevel.h; sourceTree = "<group>"; };
+		777D5AC221D5273400EC6459 /* SheepProtectorForestLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepProtectorForestLevel.h; sourceTree = "<group>"; };
+		777D5AC321D5273400EC6459 /* SheepProtectorOldFarmLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheepProtectorOldFarmLevel.h; sourceTree = "<group>"; };
+		777D5AC421D5273400EC6459 /* WaveDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveDataCenter.h; sourceTree = "<group>"; };
+		777D5ACB21D5A68D00EC6459 /* SheepMission3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SheepMission3.h; sourceTree = "<group>"; };
+		777D5ACC21D5A68D00EC6459 /* SheepMission3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheepMission3.m; sourceTree = "<group>"; };
+		777D5ACE21D5A6A300EC6459 /* SheepMission4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SheepMission4.h; sourceTree = "<group>"; };
+		777D5ACF21D5A6A300EC6459 /* SheepMission4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheepMission4.m; sourceTree = "<group>"; };
+		777D5AD121D7AE4500EC6459 /* SceneUpgradeCharacter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SceneUpgradeCharacter.sks; sourceTree = "<group>"; };
+		7787282021C942B200FFD392 /* SceneSheep.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SceneSheep.sks; sourceTree = "<group>"; };
+		7787282221C9433B00FFD392 /* SceneSheep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneSheep.h; sourceTree = "<group>"; };
+		7787282321C9433B00FFD392 /* SceneSheep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneSheep.m; sourceTree = "<group>"; };
+		7787282621C9958300FFD392 /* CattleSheep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CattleSheep.h; sourceTree = "<group>"; };
+		7787282721C9958300FFD392 /* CattleSheep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CattleSheep.m; sourceTree = "<group>"; };
+		7787282921C9FB7300FFD392 /* RaiseSheep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RaiseSheep.h; sourceTree = "<group>"; };
+		7787282A21C9FB7300FFD392 /* RaiseSheep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaiseSheep.m; sourceTree = "<group>"; };
+		7787282C21CC857000FFD392 /* CoinDropSound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoinDropSound.m4a; sourceTree = "<group>"; };
+		77C65D1921D1FD7500FE7767 /* SceneChooseMission.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SceneChooseMission.sks; sourceTree = "<group>"; };
+		77C65D1B21D1FD9500FE7767 /* SceneChooseMission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneChooseMission.h; sourceTree = "<group>"; };
+		77C65D1C21D1FD9500FE7767 /* SceneChooseMission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneChooseMission.m; sourceTree = "<group>"; };
+		77C65D1E21D2008400FE7767 /* SceneChooseCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneChooseCharacter.h; sourceTree = "<group>"; };
+		77C65D1F21D2008400FE7767 /* SceneChooseCharacter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneChooseCharacter.m; sourceTree = "<group>"; };
+		77C65D2121D20CF100FE7767 /* SceneChooseCharacter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SceneChooseCharacter.sks; sourceTree = "<group>"; };
+		77C65D2421D4AE6200FE7767 /* SheepMission1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SheepMission1.h; sourceTree = "<group>"; };
+		77C65D2521D4AE6200FE7767 /* SheepMission1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheepMission1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,21 +560,753 @@
 		770E045621C8647D00583C9B /* MonsterRaisers */ = {
 			isa = PBXGroup;
 			children = (
-				770E045721C8647D00583C9B /* AppDelegate.h */,
-				770E045821C8647D00583C9B /* AppDelegate.m */,
-				770E045A21C8647D00583C9B /* GameScene.sks */,
-				770E045C21C8647D00583C9B /* Actions.sks */,
-				770E045E21C8647D00583C9B /* GameScene.h */,
-				770E045F21C8647D00583C9B /* GameScene.m */,
-				770E046121C8647D00583C9B /* GameViewController.h */,
-				770E046221C8647D00583C9B /* GameViewController.m */,
-				770E046421C8647D00583C9B /* Main.storyboard */,
-				770E046721C8647E00583C9B /* Assets.xcassets */,
-				770E046921C8647E00583C9B /* LaunchScreen.storyboard */,
+				770E05DA21C864E100583C9B /* LapKanSupport */,
+				770E04D121C864C300583C9B /* Assets.xcassets */,
+				770E052121C864C700583C9B /* GameCode */,
+				770E04C221C864C200583C9B /* GlyphAddon */,
+				770E047421C864A800583C9B /* LapKanLaunching */,
+				770E04D221C864C300583C9B /* NoAd */,
+				770E04D721C864C600583C9B /* ParadiseTheme */,
+				770E04BF21C864C100583C9B /* TileMapAddon */,
+				770E048021C864BD00583C9B /* TinyCharacterAddon1 */,
 				770E046C21C8647E00583C9B /* Info.plist */,
 				770E046D21C8647E00583C9B /* main.m */,
 			);
 			path = MonsterRaisers;
+			sourceTree = "<group>";
+		};
+		770E047421C864A800583C9B /* LapKanLaunching */ = {
+			isa = PBXGroup;
+			children = (
+				770E047521C864A800583C9B /* LauchingCode */,
+				770E047C21C864A800583C9B /* StoryBoard */,
+			);
+			path = LapKanLaunching;
+			sourceTree = "<group>";
+		};
+		770E047521C864A800583C9B /* LauchingCode */ = {
+			isa = PBXGroup;
+			children = (
+				770E047621C864A800583C9B /* AppDelegate.h */,
+				770E047721C864A800583C9B /* LapKanViewController.h */,
+				770E047821C864A800583C9B /* LKLauchingScene.m */,
+				770E047921C864A800583C9B /* AppDelegate.m */,
+				770E047A21C864A800583C9B /* LapKanViewController.m */,
+				770E047B21C864A800583C9B /* LKLauchingScene.h */,
+			);
+			path = LauchingCode;
+			sourceTree = "<group>";
+		};
+		770E047C21C864A800583C9B /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				770E047D21C864A800583C9B /* LaunchScreen.storyboard */,
+				770E047E21C864A800583C9B /* LKLauchingScene.sks */,
+				770E047F21C864A800583C9B /* LKLauchingSceneIphone.sks */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		770E048021C864BD00583C9B /* TinyCharacterAddon1 */ = {
+			isa = PBXGroup;
+			children = (
+				770E048121C864BD00583C9B /* TinyControlCenter.h */,
+				770E048221C864BD00583C9B /* CharacterBase */,
+				770E048D21C864BD00583C9B /* GeneralAsset.xcassets */,
+				770E048E21C864BD00583C9B /* CharacterCode */,
+				770E04A721C864BD00583C9B /* TinyControlCenter.m */,
+				770E04A821C864BD00583C9B /* TinyMapSet.xcassets */,
+				770E04A921C864BD00583C9B /* CharacterAtlasForResize */,
+			);
+			path = TinyCharacterAddon1;
+			sourceTree = "<group>";
+		};
+		770E048221C864BD00583C9B /* CharacterBase */ = {
+			isa = PBXGroup;
+			children = (
+				770E048521C864BD00583C9B /* TinyAnimal.h */,
+				770E048C21C864BD00583C9B /* TinyAnimal.m */,
+				770E048A21C864BD00583C9B /* TinyEnemy.h */,
+				770E048721C864BD00583C9B /* TinyEnemy.m */,
+				770E048321C864BD00583C9B /* TinyArmy.h */,
+				770E048821C864BD00583C9B /* TinyArmy.m */,
+				770E048621C864BD00583C9B /* TinyObject.h */,
+				770E048921C864BD00583C9B /* TinyCharacter.h */,
+				770E048421C864BD00583C9B /* TinyCharacter.m */,
+				770E048B21C864BD00583C9B /* TinyObject.m */,
+			);
+			path = CharacterBase;
+			sourceTree = "<group>";
+		};
+		770E048E21C864BD00583C9B /* CharacterCode */ = {
+			isa = PBXGroup;
+			children = (
+				7787282521C9946A00FFD392 /* Cattle */,
+				770E048F21C864BD00583C9B /* TinyCharState.m */,
+				770E049021C864BD00583C9B /* TinyCharState.h */,
+				770E049121C864BD00583C9B /* PlayerArmy */,
+				770E049C21C864BD00583C9B /* Enemies */,
+			);
+			path = CharacterCode;
+			sourceTree = "<group>";
+		};
+		770E049121C864BD00583C9B /* PlayerArmy */ = {
+			isa = PBXGroup;
+			children = (
+				770E049621C864BD00583C9B /* TinyKnight.h */,
+				770E049B21C864BD00583C9B /* TinyKnight.m */,
+				770E049921C864BD00583C9B /* TinyArcher.h */,
+				770E049421C864BD00583C9B /* TinyArcher.m */,
+				770E049321C864BD00583C9B /* TinyPriest.h */,
+				770E049A21C864BD00583C9B /* TinyPriest.m */,
+				770E049721C864BD00583C9B /* TinyExecutioner.h */,
+				770E049221C864BD00583C9B /* TinyExecutioner.m */,
+				770E049821C864BD00583C9B /* TinySheep.h */,
+				770E049521C864BD00583C9B /* TinySheep.m */,
+			);
+			path = PlayerArmy;
+			sourceTree = "<group>";
+		};
+		770E049C21C864BD00583C9B /* Enemies */ = {
+			isa = PBXGroup;
+			children = (
+				770E049D21C864BD00583C9B /* TinyGoblin.h */,
+				770E04A321C864BD00583C9B /* TinyGoblin.m */,
+				770E04A221C864BD00583C9B /* TinyCyclop.h */,
+				770E049E21C864BD00583C9B /* TinyCyclop.m */,
+				770E049F21C864BD00583C9B /* TinyOrc.h */,
+				770E04A521C864BD00583C9B /* TinyOrc.m */,
+				770E04A621C864BD00583C9B /* TinyWolf.m */,
+				770E04A021C864BD00583C9B /* TinyOgre.h */,
+				770E04A121C864BD00583C9B /* TinyWolf.h */,
+				770E04A421C864BD00583C9B /* TinyOgre.m */,
+			);
+			path = Enemies;
+			sourceTree = "<group>";
+		};
+		770E04A921C864BD00583C9B /* CharacterAtlasForResize */ = {
+			isa = PBXGroup;
+			children = (
+				770E04AA21C864BD00583C9B /* EnemyArmy */,
+				770E04BA21C864BD00583C9B /* PlayerArmy */,
+			);
+			path = CharacterAtlasForResize;
+			sourceTree = "<group>";
+		};
+		770E04AA21C864BD00583C9B /* EnemyArmy */ = {
+			isa = PBXGroup;
+			children = (
+				770E04AB21C864BD00583C9B /* Wolf2.atlas */,
+				770E04AC21C864BD00583C9B /* Ogre1.atlas */,
+				770E04AD21C864BD00583C9B /* Ogre3.atlas */,
+				770E04AE21C864BD00583C9B /* Wolf1.atlas */,
+				770E04AF21C864BD00583C9B /* Wolf3.atlas */,
+				770E04B021C864BD00583C9B /* Ogre2.atlas */,
+				770E04B121C864BD00583C9B /* Sheep2.atlas */,
+				770E04B221C864BD00583C9B /* Cyclop2.atlas */,
+				770E04B321C864BD00583C9B /* Goblin2.atlas */,
+				770E04B421C864BD00583C9B /* Sheep3.atlas */,
+				770E04B521C864BD00583C9B /* Sheep1.atlas */,
+				770E04B621C864BD00583C9B /* Cyclop1.atlas */,
+				770E04B721C864BD00583C9B /* Goblin3.atlas */,
+				770E04B821C864BD00583C9B /* Cyclop3.atlas */,
+				770E04B921C864BD00583C9B /* Goblin1.atlas */,
+			);
+			path = EnemyArmy;
+			sourceTree = "<group>";
+		};
+		770E04BA21C864BD00583C9B /* PlayerArmy */ = {
+			isa = PBXGroup;
+			children = (
+				770E04BB21C864BD00583C9B /* Executioner3.atlas */,
+				770E04BC21C864BD00583C9B /* Archer3.atlas */,
+				770E04BD21C864BD00583C9B /* PriestRed.atlas */,
+				770E04BE21C864BD00583C9B /* Warrior3.atlas */,
+			);
+			path = PlayerArmy;
+			sourceTree = "<group>";
+		};
+		770E04BF21C864C100583C9B /* TileMapAddon */ = {
+			isa = PBXGroup;
+			children = (
+				770E04C021C864C100583C9B /* TileMapSet.sks */,
+				770E04C121C864C100583C9B /* TileMapAsset.xcassets */,
+			);
+			path = TileMapAddon;
+			sourceTree = "<group>";
+		};
+		770E04C221C864C200583C9B /* GlyphAddon */ = {
+			isa = PBXGroup;
+			children = (
+				770E04C321C864C200583C9B /* CrazyCow@2x.skf */,
+				770E04C421C864C200583C9B /* SSBitmapFont */,
+				770E04CF21C864C200583C9B /* CrazyCow-outline.png */,
+				770E04D021C864C200583C9B /* CrazyCow.atlas */,
+			);
+			path = GlyphAddon;
+			sourceTree = "<group>";
+		};
+		770E04C421C864C200583C9B /* SSBitmapFont */ = {
+			isa = PBXGroup;
+			children = (
+				770E04C521C864C200583C9B /* SSBitmapGlyph.m */,
+				770E04C621C864C200583C9B /* SSBitmapFontLabelNode.h */,
+				770E04C721C864C200583C9B /* LKGlyphCenter.m */,
+				770E04C821C864C200583C9B /* SSBitmapFont.h */,
+				770E04C921C864C200583C9B /* SSBitmapFontLabelNode-private.h */,
+				770E04CA21C864C200583C9B /* SSBitmapFont.m */,
+				770E04CB21C864C200583C9B /* LKGlyphCenter.h */,
+				770E04CC21C864C200583C9B /* SSBitmapFontLabelNode.m */,
+				770E04CD21C864C200583C9B /* SSBitmapGlyph.h */,
+				770E04CE21C864C200583C9B /* Structures.h */,
+			);
+			path = SSBitmapFont;
+			sourceTree = "<group>";
+		};
+		770E04D221C864C300583C9B /* NoAd */ = {
+			isa = PBXGroup;
+			children = (
+				770E04D321C864C300583C9B /* GameViewController.m */,
+				770E04D421C864C300583C9B /* Main.storyboard */,
+				770E04D521C864C300583C9B /* AdControlScene.sks */,
+				770E04D621C864C300583C9B /* GameViewController.h */,
+			);
+			path = NoAd;
+			sourceTree = "<group>";
+		};
+		770E04D721C864C600583C9B /* ParadiseTheme */ = {
+			isa = PBXGroup;
+			children = (
+				770E04D821C864C600583C9B /* RootBoard */,
+				770E04DD21C864C600583C9B /* ParadiseTileSet.sks */,
+				770E04DE21C864C600583C9B /* MainButton.xcassets */,
+				770E04DF21C864C600583C9B /* RootHUD */,
+				770E04F121C864C600583C9B /* SupportFile */,
+				770E04F721C864C600583C9B /* MainSet.xcassets */,
+				770E04F821C864C600583C9B /* RootScene */,
+				770E051421C864C600583C9B /* EffectNode */,
+				770E051721C864C600583C9B /* ItemList.atlas */,
+				770E051821C864C600583C9B /* MusicDefault */,
+			);
+			path = ParadiseTheme;
+			sourceTree = "<group>";
+		};
+		770E04D821C864C600583C9B /* RootBoard */ = {
+			isa = PBXGroup;
+			children = (
+				770E04D921C864C600583C9B /* BoardLose.sks */,
+				770E04DA21C864C600583C9B /* BoardPause.sks */,
+				770E04DB21C864C600583C9B /* BoardWin.sks */,
+				770E04DC21C864C600583C9B /* BoardEnd.sks */,
+			);
+			path = RootBoard;
+			sourceTree = "<group>";
+		};
+		770E04DF21C864C600583C9B /* RootHUD */ = {
+			isa = PBXGroup;
+			children = (
+				770E04E021C864C600583C9B /* LKRootChooseBackIphone.sks */,
+				770E04E121C864C600583C9B /* LKRootChooseBack.sks */,
+				770E04E221C864C600583C9B /* LKRootBasicHUDIphone.sks */,
+				770E04E321C864C600583C9B /* LKRootPlayHUDIphone.sks */,
+				770E04E421C864C600583C9B /* LKRootChooseHUDIphone.sks */,
+				770E04E521C864C600583C9B /* LKRootChooseHUD.sks */,
+				770E04E621C864C600583C9B /* LKRootBasicHUD.sks */,
+				770E04E721C864C600583C9B /* LKRootPlayHUD.sks */,
+				770E04E821C864C600583C9B /* Landscape */,
+			);
+			path = RootHUD;
+			sourceTree = "<group>";
+		};
+		770E04E821C864C600583C9B /* Landscape */ = {
+			isa = PBXGroup;
+			children = (
+				770E04E921C864C600583C9B /* LKRootPlayHUDIphoneL.sks */,
+				770E04EA21C864C600583C9B /* LKRootBasicHUDIphoneL.sks */,
+				770E04EB21C864C600583C9B /* LKRootChooseHUDL.sks */,
+				770E04EC21C864C600583C9B /* LKRootBasicHUDL.sks */,
+				770E04ED21C864C600583C9B /* LKRootChooseBackL.sks */,
+				770E04EE21C864C600583C9B /* LKRootChooseBackIphoneL.sks */,
+				770E04EF21C864C600583C9B /* LKRootPlayHUDL.sks */,
+				770E04F021C864C600583C9B /* LKRootChooseHUDIphoneL.sks */,
+			);
+			path = Landscape;
+			sourceTree = "<group>";
+		};
+		770E04F121C864C600583C9B /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				770E04F221C864C600583C9B /* DimboRegular.ttf */,
+				770E04F321C864C600583C9B /* Water_Shader.fsh */,
+				770E04F421C864C600583C9B /* shader_water_reflection.fsh */,
+				770E04F521C864C600583C9B /* shader_water_movement.fsh */,
+				770E04F621C864C600583C9B /* TitanOne.ttf */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		770E04F821C864C600583C9B /* RootScene */ = {
+			isa = PBXGroup;
+			children = (
+				770E04F921C864C600583C9B /* LKRootChapterScene.sks */,
+				770E04FA21C864C600583C9B /* LKRootGuideSceneIphone.sks */,
+				770E04FB21C864C600583C9B /* LKRootMenuScene.sks */,
+				770E04FC21C864C600583C9B /* LKRootMenuSceneIphone.sks */,
+				770E04FD21C864C600583C9B /* LKRootCreditScene.sks */,
+				770E04FE21C864C600583C9B /* LKRootChapterSceneIphone.sks */,
+				770E04FF21C864C600583C9B /* LKRootGuideScene.sks */,
+				770E050021C864C600583C9B /* LKRootShopCoinScene.sks */,
+				770E050121C864C600583C9B /* LKRootShopCoinSceneIphone.sks */,
+				770E050221C864C600583C9B /* LKRootCreditSceneIphone.sks */,
+				770E050321C864C600583C9B /* LKRootPlayScene.sks */,
+				770E050421C864C600583C9B /* Landscape */,
+				770E051221C864C600583C9B /* LKRootShowroom.sks */,
+				770E051321C864C600583C9B /* LKRootPlaySceneIphone.sks */,
+			);
+			path = RootScene;
+			sourceTree = "<group>";
+		};
+		770E050421C864C600583C9B /* Landscape */ = {
+			isa = PBXGroup;
+			children = (
+				770E050521C864C600583C9B /* LKRootCreditSceneIphoneL.sks */,
+				770E050621C864C600583C9B /* LKRootPlaySceneIphoneL.sks */,
+				770E050721C864C600583C9B /* LKRootCreditSceneL.sks */,
+				770E050821C864C600583C9B /* LKRootGuideSceneIphoneL.sks */,
+				770E050921C864C600583C9B /* LKRootChapterSceneIphoneL.sks */,
+				770E050A21C864C600583C9B /* LKRootPlaySceneL.sks */,
+				770E050B21C864C600583C9B /* LKRootShopCoinSceneIphoneL.sks */,
+				770E050C21C864C600583C9B /* LKRootMenuSceneL.sks */,
+				770E050D21C864C600583C9B /* LKRootShowroomL.sks */,
+				770E050E21C864C600583C9B /* LKRootShopCoinSceneL.sks */,
+				770E050F21C864C600583C9B /* LKRootGuideSceneL.sks */,
+				770E051021C864C600583C9B /* LKRootMenuSceneIphoneL.sks */,
+				770E051121C864C600583C9B /* LKRootChapterSceneL.sks */,
+			);
+			path = Landscape;
+			sourceTree = "<group>";
+		};
+		770E051421C864C600583C9B /* EffectNode */ = {
+			isa = PBXGroup;
+			children = (
+				770E051521C864C600583C9B /* SmokeEffect.sks */,
+				770E051621C864C600583C9B /* FlyfireEffect.sks */,
+			);
+			path = EffectNode;
+			sourceTree = "<group>";
+		};
+		770E051821C864C600583C9B /* MusicDefault */ = {
+			isa = PBXGroup;
+			children = (
+				770E051921C864C600583C9B /* WrongSound.wav */,
+				770E051A21C864C600583C9B /* HitSound.m4a */,
+				770E051B21C864C600583C9B /* DellFarm.mp3 */,
+				770E051C21C864C600583C9B /* FarmSong.m4a */,
+				770E051D21C864C600583C9B /* GetOutside.mp3 */,
+				770E051E21C864C600583C9B /* ButtonClickSound.m4a */,
+				770E051F21C864C600583C9B /* AboutThatOldie.mp3 */,
+				770E052021C864C600583C9B /* CorrectSound.wav */,
+			);
+			path = MusicDefault;
+			sourceTree = "<group>";
+		};
+		770E052121C864C700583C9B /* GameCode */ = {
+			isa = PBXGroup;
+			children = (
+				770E067121C8777400583C9B /* MonsterRaiser */,
+				770E052321C864C700583C9B /* Code */,
+				770E052E21C864C700583C9B /* Scene */,
+				770E054521C864C700583C9B /* CrazySheep.xcassets */,
+			);
+			path = GameCode;
+			sourceTree = "<group>";
+		};
+		770E052321C864C700583C9B /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				770E052A21C864C700583C9B /* SheepProtectorLaunch.h */,
+				770E052521C864C700583C9B /* SheepProtectorLaunch.m */,
+				770E052421C864C700583C9B /* SheepProtectorPlayDrag.h */,
+				770E052821C864C700583C9B /* SheepProtectorPlayDrag.m */,
+				770E052721C864C700583C9B /* SheepProtectorChoose.m */,
+				770E052921C864C700583C9B /* SheepProtectorChoose.h */,
+				770E052B21C864C700583C9B /* CrazySheepGame.h */,
+				770E052621C864C700583C9B /* CrazySheepGame.m */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		770E052E21C864C700583C9B /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				770E052F21C864C700583C9B /* CrazySheepGame.sks */,
+				770E053021C864C700583C9B /* SheepProtectorPlayDrag.sks */,
+				770E053121C864C700583C9B /* SheepProtectorLaunch.sks */,
+				770E053221C864C700583C9B /* CrazySheepGameForest.sks */,
+				770E053321C864C700583C9B /* CrazySheepGameDungeon.sks */,
+				770E053421C864C700583C9B /* CrazyCowGuideAngle.sks */,
+				770E053521C864C700583C9B /* Iphone */,
+				770E053C21C864C700583C9B /* CrazyCowGuide1.sks */,
+				770E053D21C864C700583C9B /* CrazyCowGuide2.sks */,
+				770E053E21C864C700583C9B /* EffectParticle */,
+				770E054221C864C700583C9B /* CrazySheepGameFrozen.sks */,
+				770E054321C864C700583C9B /* SheepProtectorChoose.sks */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		770E053521C864C700583C9B /* Iphone */ = {
+			isa = PBXGroup;
+			children = (
+				770E053621C864C700583C9B /* SheepProtectorChooseIphone.sks */,
+				770E053721C864C700583C9B /* CrazySheepGameFrozenIphone.sks */,
+				770E053821C864C700583C9B /* CrazySheepGameDungeonIphone.sks */,
+				770E053921C864C700583C9B /* CrazySheepGameForestIphone.sks */,
+				770E053A21C864C700583C9B /* CrazySheepGameIphone.sks */,
+				770E053B21C864C700583C9B /* SheepProtectorLaunchIphone.sks */,
+			);
+			path = Iphone;
+			sourceTree = "<group>";
+		};
+		770E053E21C864C700583C9B /* EffectParticle */ = {
+			isa = PBXGroup;
+			children = (
+				770E053F21C864C700583C9B /* MyParticle.sks */,
+				770E054021C864C700583C9B /* RainParticle.sks */,
+				770E054121C864C700583C9B /* FireParticle.sks */,
+			);
+			path = EffectParticle;
+			sourceTree = "<group>";
+		};
+		770E05DA21C864E100583C9B /* LapKanSupport */ = {
+			isa = PBXGroup;
+			children = (
+				770E05DB21C864E100583C9B /* SupportLibrary */,
+				770E062D21C864E100583C9B /* RootScene */,
+				770E064321C864E200583C9B /* Data */,
+			);
+			name = LapKanSupport;
+			path = "../../../../B2. Late update Code/Oct Late Code/EmbleCode/LapKanSupport";
+			sourceTree = "<group>";
+		};
+		770E05DB21C864E100583C9B /* SupportLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				770E05DC21C864E100583C9B /* ExtendKit */,
+				770E05E921C864E100583C9B /* CenterKit */,
+				770E05FE21C864E100583C9B /* InAppPurchaseKit */,
+				770E060321C864E100583C9B /* SpriteClass */,
+				770E061121C864E100583C9B /* GraphicKit */,
+				770E061821C864E100583C9B /* SpriteNodeExt */,
+			);
+			path = SupportLibrary;
+			sourceTree = "<group>";
+		};
+		770E05DC21C864E100583C9B /* ExtendKit */ = {
+			isa = PBXGroup;
+			children = (
+				770E05DD21C864E100583C9B /* LKActionOperation.m */,
+				770E05DE21C864E100583C9B /* LKStringExtend.h */,
+				770E05DF21C864E100583C9B /* LKGraphicExtend.m */,
+				770E05E021C864E100583C9B /* LKStoreDataExtend.h */,
+				770E05E121C864E100583C9B /* LKArrayExtend.h */,
+				770E05E221C864E100583C9B /* LKNumberExtend.m */,
+				770E05E321C864E100583C9B /* LKStoreDataExtend.m */,
+				770E05E421C864E100583C9B /* LKGraphicExtend.h */,
+				770E05E521C864E100583C9B /* LKStringExtend.m */,
+				770E05E621C864E100583C9B /* LKActionOperation.h */,
+				770E05E721C864E100583C9B /* LKArrayExtend.m */,
+				770E05E821C864E100583C9B /* LKNumberExtend.h */,
+			);
+			path = ExtendKit;
+			sourceTree = "<group>";
+		};
+		770E05E921C864E100583C9B /* CenterKit */ = {
+			isa = PBXGroup;
+			children = (
+				770E05EA21C864E100583C9B /* LKAudioCenter.m */,
+				770E05EB21C864E100583C9B /* LapKanCenter.m */,
+				770E05EC21C864E100583C9B /* LKLevelCenter.m */,
+				770E05ED21C864E100583C9B /* LKScoreCenter.m */,
+				770E05EE21C864E100583C9B /* LKAdCenter.h */,
+				770E05EF21C864E100583C9B /* LKResourceCenter.m */,
+				770E05F021C864E100583C9B /* LKGenericCenter.m */,
+				770E05F121C864E100583C9B /* LKMoneyCenter.h */,
+				770E05F221C864E100583C9B /* LapKanCenter.h */,
+				770E05F321C864E100583C9B /* LKAudioCenter.h */,
+				770E05F421C864E100583C9B /* LevelControl */,
+				770E05F521C864E100583C9B /* New Group */,
+				770E05F821C864E100583C9B /* LKScoreCenter.h */,
+				770E05F921C864E100583C9B /* LKLevelCenter.h */,
+				770E05FA21C864E100583C9B /* LKResourceCenter.h */,
+				770E05FB21C864E100583C9B /* LKAdCenter.m */,
+				770E05FC21C864E100583C9B /* LKMoneyCenter.m */,
+				770E05FD21C864E100583C9B /* LKGenericCenter.h */,
+			);
+			path = CenterKit;
+			sourceTree = "<group>";
+		};
+		770E05F421C864E100583C9B /* LevelControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LevelControl;
+			sourceTree = "<group>";
+		};
+		770E05F521C864E100583C9B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				770E05F621C864E100583C9B /* MissionObj.m */,
+				770E05F721C864E100583C9B /* MissionObj.h */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		770E05FE21C864E100583C9B /* InAppPurchaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				770E05FF21C864E100583C9B /* InAppObserver.m */,
+				770E060021C864E100583C9B /* InAppManager.h */,
+				770E060121C864E100583C9B /* InAppObserver.h */,
+				770E060221C864E100583C9B /* InAppManager.m */,
+			);
+			path = InAppPurchaseKit;
+			sourceTree = "<group>";
+		};
+		770E060321C864E100583C9B /* SpriteClass */ = {
+			isa = PBXGroup;
+			children = (
+				770E060421C864E100583C9B /* LKProcessNode */,
+				770E060921C864E100583C9B /* LKHeathBar */,
+				770E060E21C864E100583C9B /* TileMap */,
+			);
+			path = SpriteClass;
+			sourceTree = "<group>";
+		};
+		770E060421C864E100583C9B /* LKProcessNode */ = {
+			isa = PBXGroup;
+			children = (
+				770E060521C864E100583C9B /* LKProgressTimerNode.m */,
+				770E060621C864E100583C9B /* LKProgressTimerForegroundCropNode.h */,
+				770E060721C864E100583C9B /* LKProgressTimerNode.h */,
+				770E060821C864E100583C9B /* LKProgressTimerForegroundCropNode.m */,
+			);
+			path = LKProcessNode;
+			sourceTree = "<group>";
+		};
+		770E060921C864E100583C9B /* LKHeathBar */ = {
+			isa = PBXGroup;
+			children = (
+				770E060A21C864E100583C9B /* LKHeathBarNode.h */,
+				770E060B21C864E100583C9B /* LKHeathBarCropNode.m */,
+				770E060C21C864E100583C9B /* LKHeathBarNode.m */,
+				770E060D21C864E100583C9B /* LKHeathBarCropNode.h */,
+			);
+			path = LKHeathBar;
+			sourceTree = "<group>";
+		};
+		770E060E21C864E100583C9B /* TileMap */ = {
+			isa = PBXGroup;
+			children = (
+				770E060F21C864E100583C9B /* TileObj.h */,
+				770E061021C864E100583C9B /* TileObj.m */,
+			);
+			path = TileMap;
+			sourceTree = "<group>";
+		};
+		770E061121C864E100583C9B /* GraphicKit */ = {
+			isa = PBXGroup;
+			children = (
+				770E061221C864E100583C9B /* LKTimingFunction.m */,
+				770E061321C864E100583C9B /* LKGraphicsUtils.m */,
+				770E061421C864E100583C9B /* LKSKUtils.h */,
+				770E061521C864E100583C9B /* LKSKUtils.mm */,
+				770E061621C864E100583C9B /* LKGraphicsUtils.h */,
+				770E061721C864E100583C9B /* LKTimingFunction.h */,
+			);
+			path = GraphicKit;
+			sourceTree = "<group>";
+		};
+		770E061821C864E100583C9B /* SpriteNodeExt */ = {
+			isa = PBXGroup;
+			children = (
+				770E061921C864E100583C9B /* SKSpriteNodeExtra */,
+				770E061C21C864E100583C9B /* SKEffectExtra */,
+				770E062321C864E100583C9B /* SKActionExtra */,
+				770E062821C864E100583C9B /* SKNodeExtra */,
+			);
+			path = SpriteNodeExt;
+			sourceTree = "<group>";
+		};
+		770E061921C864E100583C9B /* SKSpriteNodeExtra */ = {
+			isa = PBXGroup;
+			children = (
+				770E061A21C864E100583C9B /* SKSpriteNode+LKExtra.m */,
+				770E061B21C864E100583C9B /* SKSpriteNode+LKExtra.h */,
+			);
+			path = SKSpriteNodeExtra;
+			sourceTree = "<group>";
+		};
+		770E061C21C864E100583C9B /* SKEffectExtra */ = {
+			isa = PBXGroup;
+			children = (
+				770E061D21C864E100583C9B /* SKEmitterNode+LKSKExtras.h */,
+				770E061E21C864E100583C9B /* SKBlade.h */,
+				770E061F21C864E100583C9B /* SKTEffects.h */,
+				770E062021C864E100583C9B /* SKTEffects.m */,
+				770E062121C864E100583C9B /* SKBlade.m */,
+				770E062221C864E100583C9B /* SKEmitterNode+LKSKExtras.m */,
+			);
+			path = SKEffectExtra;
+			sourceTree = "<group>";
+		};
+		770E062321C864E100583C9B /* SKActionExtra */ = {
+			isa = PBXGroup;
+			children = (
+				770E062421C864E100583C9B /* SKAction+SKTSpecialEffects.m */,
+				770E062521C864E100583C9B /* SKAction+SKTExtras.m */,
+				770E062621C864E100583C9B /* SKAction+SKTExtras.h */,
+				770E062721C864E100583C9B /* SKAction+SKTSpecialEffects.h */,
+			);
+			path = SKActionExtra;
+			sourceTree = "<group>";
+		};
+		770E062821C864E100583C9B /* SKNodeExtra */ = {
+			isa = PBXGroup;
+			children = (
+				770E062921C864E100583C9B /* SKNode+SKTDebugDraw.h */,
+				770E062A21C864E100583C9B /* SKNode+SKTExtras.m */,
+				770E062B21C864E100583C9B /* SKNode+SKTExtras.h */,
+				770E062C21C864E100583C9B /* SKNode+SKTDebugDraw.m */,
+			);
+			path = SKNodeExtra;
+			sourceTree = "<group>";
+		};
+		770E062D21C864E100583C9B /* RootScene */ = {
+			isa = PBXGroup;
+			children = (
+				770E062E21C864E200583C9B /* LKRootChapterScene.h */,
+				770E062F21C864E200583C9B /* LKRootScene.m */,
+				770E063021C864E200583C9B /* LKRootMenuScene.m */,
+				770E063121C864E200583C9B /* LKRootShopScene.h */,
+				770E063221C864E200583C9B /* LKRootCreditScene.m */,
+				770E063321C864E200583C9B /* LKRootPlayScene.h */,
+				770E063421C864E200583C9B /* LKRootChooseScene.h */,
+				770E063521C864E200583C9B /* LKRootGuideScene.h */,
+				770E063621C864E200583C9B /* LKRootShowroomScene.h */,
+				770E063721C864E200583C9B /* LKRootScene.h */,
+				770E063821C864E200583C9B /* LKRootChapterScene.m */,
+				770E063921C864E200583C9B /* LKRootShopScene.m */,
+				770E063A21C864E200583C9B /* LKRootMenuScene.h */,
+				770E063B21C864E200583C9B /* LKRootPlayScene.m */,
+				770E063C21C864E200583C9B /* GameState */,
+				770E063F21C864E200583C9B /* LKRootCreditScene.h */,
+				770E064021C864E200583C9B /* LKRootGuideScene.m */,
+				770E064121C864E200583C9B /* LKRootShowroomScene.m */,
+				770E064221C864E200583C9B /* LKRootChooseScene.m */,
+			);
+			path = RootScene;
+			sourceTree = "<group>";
+		};
+		770E063C21C864E200583C9B /* GameState */ = {
+			isa = PBXGroup;
+			children = (
+				770E063D21C864E200583C9B /* GameState.h */,
+				770E063E21C864E200583C9B /* GameState.m */,
+			);
+			path = GameState;
+			sourceTree = "<group>";
+		};
+		770E064321C864E200583C9B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				770E064421C864E200583C9B /* ListMonsters.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		770E067121C8777400583C9B /* MonsterRaiser */ = {
+			isa = PBXGroup;
+			children = (
+				770E052221C864C700583C9B /* GameStore.h */,
+				770E052D21C864C700583C9B /* GameStore.m */,
+				770E052C21C864C700583C9B /* GameControlCenter.h */,
+				770E054421C864C700583C9B /* GameControlCenter.m */,
+				770E067321C8779100583C9B /* MRScene */,
+				770E067221C8778500583C9B /* MRCode */,
+			);
+			path = MonsterRaiser;
+			sourceTree = "<group>";
+		};
+		770E067221C8778500583C9B /* MRCode */ = {
+			isa = PBXGroup;
+			children = (
+				777D5AB921D5273400EC6459 /* GameLevel */,
+				77C65D2321D4AE4800FE7767 /* MissionScene */,
+				7787282C21CC857000FFD392 /* CoinDropSound.m4a */,
+				7787282221C9433B00FFD392 /* SceneSheep.h */,
+				7787282321C9433B00FFD392 /* SceneSheep.m */,
+				77C65D1B21D1FD9500FE7767 /* SceneChooseMission.h */,
+				77C65D1C21D1FD9500FE7767 /* SceneChooseMission.m */,
+				77C65D1E21D2008400FE7767 /* SceneChooseCharacter.h */,
+				77C65D1F21D2008400FE7767 /* SceneChooseCharacter.m */,
+			);
+			path = MRCode;
+			sourceTree = "<group>";
+		};
+		770E067321C8779100583C9B /* MRScene */ = {
+			isa = PBXGroup;
+			children = (
+				777D5AD121D7AE4500EC6459 /* SceneUpgradeCharacter.sks */,
+				77C65D1921D1FD7500FE7767 /* SceneChooseMission.sks */,
+				77C65D2121D20CF100FE7767 /* SceneChooseCharacter.sks */,
+				7787282021C942B200FFD392 /* SceneSheep.sks */,
+			);
+			path = MRScene;
+			sourceTree = "<group>";
+		};
+		777D5AB921D5273400EC6459 /* GameLevel */ = {
+			isa = PBXGroup;
+			children = (
+				777D5ABD21D5273400EC6459 /* SheepProtectorForestLevel.m */,
+				777D5AC021D5273400EC6459 /* SheepProtectorFrozenLevel.h */,
+				777D5ABB21D5273400EC6459 /* SheepProtectorFrozenLevel.m */,
+				777D5ABA21D5273400EC6459 /* SheepProtectorDungeonLevel.m */,
+				777D5ABC21D5273400EC6459 /* WaveDataForRaider.plist */,
+				777D5ABF21D5273400EC6459 /* SheepProtectorOldFarmLevel.m */,
+				777D5AC121D5273400EC6459 /* SheepProtectorDungeonLevel.h */,
+				777D5AC221D5273400EC6459 /* SheepProtectorForestLevel.h */,
+				777D5AC321D5273400EC6459 /* SheepProtectorOldFarmLevel.h */,
+				777D5AC421D5273400EC6459 /* WaveDataCenter.h */,
+				777D5ABE21D5273400EC6459 /* WaveDataCenter.m */,
+			);
+			path = GameLevel;
+			sourceTree = "<group>";
+		};
+		7787282521C9946A00FFD392 /* Cattle */ = {
+			isa = PBXGroup;
+			children = (
+				7787282621C9958300FFD392 /* CattleSheep.h */,
+				7787282721C9958300FFD392 /* CattleSheep.m */,
+				7787282921C9FB7300FFD392 /* RaiseSheep.h */,
+				7787282A21C9FB7300FFD392 /* RaiseSheep.m */,
+			);
+			path = Cattle;
+			sourceTree = "<group>";
+		};
+		77C65D2321D4AE4800FE7767 /* MissionScene */ = {
+			isa = PBXGroup;
+			children = (
+				77C65D2421D4AE6200FE7767 /* SheepMission1.h */,
+				77C65D2521D4AE6200FE7767 /* SheepMission1.m */,
+				777D5AB621D523AF00EC6459 /* SheepMission2.h */,
+				777D5AB721D523AF00EC6459 /* SheepMission2.m */,
+				777D5ACB21D5A68D00EC6459 /* SheepMission3.h */,
+				777D5ACC21D5A68D00EC6459 /* SheepMission3.m */,
+				777D5ACE21D5A6A300EC6459 /* SheepMission4.h */,
+				777D5ACF21D5A6A300EC6459 /* SheepMission4.m */,
+			);
+			path = MissionScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,11 +1366,130 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				770E046621C8647D00583C9B /* Main.storyboard in Resources */,
-				770E045B21C8647D00583C9B /* GameScene.sks in Resources */,
-				770E046821C8647E00583C9B /* Assets.xcassets in Resources */,
-				770E046B21C8647E00583C9B /* LaunchScreen.storyboard in Resources */,
-				770E045D21C8647D00583C9B /* Actions.sks in Resources */,
+				770E056D21C864C700583C9B /* Goblin1.atlas in Resources */,
+				770E05C721C864C700583C9B /* SheepProtectorLaunch.sks in Resources */,
+				770E059D21C864C700583C9B /* LKRootMenuScene.sks in Resources */,
+				770E05B821C864C700583C9B /* WrongSound.wav in Resources */,
+				770E05A521C864C700583C9B /* LKRootPlayScene.sks in Resources */,
+				770E056021C864C700583C9B /* Ogre1.atlas in Resources */,
+				770E05CF21C864C700583C9B /* CrazySheepGameIphone.sks in Resources */,
+				770E056E21C864C700583C9B /* Executioner3.atlas in Resources */,
+				770E055F21C864C700583C9B /* Wolf2.atlas in Resources */,
+				770E059121C864C700583C9B /* LKRootChooseBackL.sks in Resources */,
+				770E05B021C864C700583C9B /* LKRootGuideSceneL.sks in Resources */,
+				770E05BE21C864C700583C9B /* AboutThatOldie.mp3 in Resources */,
+				770E059A21C864C700583C9B /* MainSet.xcassets in Resources */,
+				770E057B21C864C700583C9B /* Assets.xcassets in Resources */,
+				770E057E21C864C700583C9B /* AdControlScene.sks in Resources */,
+				770E058221C864C700583C9B /* BoardEnd.sks in Resources */,
+				770E057F21C864C700583C9B /* BoardLose.sks in Resources */,
+				770E05CB21C864C700583C9B /* SheepProtectorChooseIphone.sks in Resources */,
+				770E058C21C864C700583C9B /* LKRootPlayHUD.sks in Resources */,
+				770E059F21C864C700583C9B /* LKRootCreditScene.sks in Resources */,
+				770E05A121C864C700583C9B /* LKRootGuideScene.sks in Resources */,
+				770E054A21C864C700583C9B /* LKLauchingScene.sks in Resources */,
+				770E054B21C864C700583C9B /* LKLauchingSceneIphone.sks in Resources */,
+				770E05C621C864C700583C9B /* SheepProtectorPlayDrag.sks in Resources */,
+				770E056821C864C700583C9B /* Sheep3.atlas in Resources */,
+				770E058A21C864C700583C9B /* LKRootChooseHUD.sks in Resources */,
+				770E05AD21C864C700583C9B /* LKRootMenuSceneL.sks in Resources */,
+				770E05C821C864C700583C9B /* CrazySheepGameForest.sks in Resources */,
+				770E056921C864C700583C9B /* Sheep1.atlas in Resources */,
+				770E056B21C864C700583C9B /* Goblin3.atlas in Resources */,
+				770E057421C864C700583C9B /* CrazyCow@2x.skf in Resources */,
+				770E05D021C864C700583C9B /* SheepProtectorLaunchIphone.sks in Resources */,
+				770E058D21C864C700583C9B /* LKRootPlayHUDIphoneL.sks in Resources */,
+				77C65D2221D20CF100FE7767 /* SceneChooseCharacter.sks in Resources */,
+				770E058921C864C700583C9B /* LKRootChooseHUDIphone.sks in Resources */,
+				77C65D1A21D1FD7500FE7767 /* SceneChooseMission.sks in Resources */,
+				770E058421C864C700583C9B /* MainButton.xcassets in Resources */,
+				770E05CD21C864C700583C9B /* CrazySheepGameDungeonIphone.sks in Resources */,
+				770E056421C864C700583C9B /* Ogre2.atlas in Resources */,
+				770E059921C864C700583C9B /* TitanOne.ttf in Resources */,
+				770E058121C864C700583C9B /* BoardWin.sks in Resources */,
+				770E05D321C864C700583C9B /* MyParticle.sks in Resources */,
+				770E05B621C864C700583C9B /* FlyfireEffect.sks in Resources */,
+				770E058E21C864C700583C9B /* LKRootBasicHUDIphoneL.sks in Resources */,
+				770E05AF21C864C700583C9B /* LKRootShopCoinSceneL.sks in Resources */,
+				770E057121C864C700583C9B /* Warrior3.atlas in Resources */,
+				770E058521C864C700583C9B /* LKRootChooseBackIphone.sks in Resources */,
+				770E058821C864C700583C9B /* LKRootPlayHUDIphone.sks in Resources */,
+				7787282121C942B200FFD392 /* SceneSheep.sks in Resources */,
+				770E058321C864C700583C9B /* ParadiseTileSet.sks in Resources */,
+				770E05A921C864C700583C9B /* LKRootGuideSceneIphoneL.sks in Resources */,
+				770E05D221C864C700583C9B /* CrazyCowGuide2.sks in Resources */,
+				770E058F21C864C700583C9B /* LKRootChooseHUDL.sks in Resources */,
+				770E055E21C864C700583C9B /* TinyMapSet.xcassets in Resources */,
+				770E05B121C864C700583C9B /* LKRootMenuSceneIphoneL.sks in Resources */,
+				770E05C921C864C700583C9B /* CrazySheepGameDungeon.sks in Resources */,
+				777D5AC721D5273400EC6459 /* WaveDataForRaider.plist in Resources */,
+				770E05A221C864C700583C9B /* LKRootShopCoinScene.sks in Resources */,
+				770E054921C864C700583C9B /* LaunchScreen.storyboard in Resources */,
+				770E05B421C864C700583C9B /* LKRootPlaySceneIphone.sks in Resources */,
+				770E05BB21C864C700583C9B /* FarmSong.m4a in Resources */,
+				770E05B221C864C700583C9B /* LKRootChapterSceneL.sks in Resources */,
+				770E059221C864C700583C9B /* LKRootChooseBackIphoneL.sks in Resources */,
+				770E057921C864C700583C9B /* CrazyCow-outline.png in Resources */,
+				770E056A21C864C700583C9B /* Cyclop1.atlas in Resources */,
+				770E05B521C864C700583C9B /* SmokeEffect.sks in Resources */,
+				770E059321C864C700583C9B /* LKRootPlayHUDL.sks in Resources */,
+				770E05B721C864C700583C9B /* ItemList.atlas in Resources */,
+				770E05A821C864C700583C9B /* LKRootCreditSceneL.sks in Resources */,
+				770E05C521C864C700583C9B /* CrazySheepGame.sks in Resources */,
+				770E056221C864C700583C9B /* Wolf1.atlas in Resources */,
+				770E05BD21C864C700583C9B /* ButtonClickSound.m4a in Resources */,
+				770E057321C864C700583C9B /* TileMapAsset.xcassets in Resources */,
+				770E056121C864C700583C9B /* Ogre3.atlas in Resources */,
+				770E058721C864C700583C9B /* LKRootBasicHUDIphone.sks in Resources */,
+				7787282D21CC857000FFD392 /* CoinDropSound.m4a in Resources */,
+				770E05A721C864C700583C9B /* LKRootPlaySceneIphoneL.sks in Resources */,
+				770E05BC21C864C700583C9B /* GetOutside.mp3 in Resources */,
+				770E05A021C864C700583C9B /* LKRootChapterSceneIphone.sks in Resources */,
+				777D5AD221D7AE4500EC6459 /* SceneUpgradeCharacter.sks in Resources */,
+				770E05CE21C864C700583C9B /* CrazySheepGameForestIphone.sks in Resources */,
+				770E055121C864C700583C9B /* GeneralAsset.xcassets in Resources */,
+				770E059421C864C700583C9B /* LKRootChooseHUDIphoneL.sks in Resources */,
+				770E05D921C864C700583C9B /* CrazySheep.xcassets in Resources */,
+				770E056C21C864C700583C9B /* Cyclop3.atlas in Resources */,
+				770E059821C864C700583C9B /* shader_water_movement.fsh in Resources */,
+				770E057A21C864C700583C9B /* CrazyCow.atlas in Resources */,
+				770E05AE21C864C700583C9B /* LKRootShowroomL.sks in Resources */,
+				770E05AC21C864C700583C9B /* LKRootShopCoinSceneIphoneL.sks in Resources */,
+				770E056521C864C700583C9B /* Sheep2.atlas in Resources */,
+				770E05D721C864C700583C9B /* SheepProtectorChoose.sks in Resources */,
+				770E059B21C864C700583C9B /* LKRootChapterScene.sks in Resources */,
+				770E05B921C864C700583C9B /* HitSound.m4a in Resources */,
+				770E059521C864C700583C9B /* DimboRegular.ttf in Resources */,
+				770E058B21C864C700583C9B /* LKRootBasicHUD.sks in Resources */,
+				770E05CA21C864C700583C9B /* CrazyCowGuideAngle.sks in Resources */,
+				770E05A321C864C700583C9B /* LKRootShopCoinSceneIphone.sks in Resources */,
+				770E05D521C864C700583C9B /* FireParticle.sks in Resources */,
+				770E057221C864C700583C9B /* TileMapSet.sks in Resources */,
+				770E05BA21C864C700583C9B /* DellFarm.mp3 in Resources */,
+				770E058621C864C700583C9B /* LKRootChooseBack.sks in Resources */,
+				770E05B321C864C700583C9B /* LKRootShowroom.sks in Resources */,
+				770E05D421C864C700583C9B /* RainParticle.sks in Resources */,
+				770E059021C864C700583C9B /* LKRootBasicHUDL.sks in Resources */,
+				770E05D121C864C700583C9B /* CrazyCowGuide1.sks in Resources */,
+				770E05CC21C864C700583C9B /* CrazySheepGameFrozenIphone.sks in Resources */,
+				770E05D621C864C700583C9B /* CrazySheepGameFrozen.sks in Resources */,
+				770E067021C864E200583C9B /* ListMonsters.plist in Resources */,
+				770E059621C864C700583C9B /* Water_Shader.fsh in Resources */,
+				770E05AA21C864C700583C9B /* LKRootChapterSceneIphoneL.sks in Resources */,
+				770E059C21C864C700583C9B /* LKRootGuideSceneIphone.sks in Resources */,
+				770E056F21C864C700583C9B /* Archer3.atlas in Resources */,
+				770E05A621C864C700583C9B /* LKRootCreditSceneIphoneL.sks in Resources */,
+				770E05BF21C864C700583C9B /* CorrectSound.wav in Resources */,
+				770E057021C864C700583C9B /* PriestRed.atlas in Resources */,
+				770E059E21C864C700583C9B /* LKRootMenuSceneIphone.sks in Resources */,
+				770E058021C864C700583C9B /* BoardPause.sks in Resources */,
+				770E056321C864C700583C9B /* Wolf3.atlas in Resources */,
+				770E05AB21C864C700583C9B /* LKRootPlaySceneL.sks in Resources */,
+				770E056621C864C700583C9B /* Cyclop2.atlas in Resources */,
+				770E057D21C864C700583C9B /* Main.storyboard in Resources */,
+				770E059721C864C700583C9B /* shader_water_reflection.fsh in Resources */,
+				770E056721C864C700583C9B /* Goblin2.atlas in Resources */,
+				770E05A421C864C700583C9B /* LKRootCreditSceneIphone.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,33 +1500,99 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				770E046021C8647D00583C9B /* GameScene.m in Sources */,
-				770E046321C8647D00583C9B /* GameViewController.m in Sources */,
+				770E055521C864C700583C9B /* TinySheep.m in Sources */,
+				777D5AC621D5273400EC6459 /* SheepProtectorFrozenLevel.m in Sources */,
+				770E066C21C864E200583C9B /* GameState.m in Sources */,
+				770E05C221C864C700583C9B /* SheepProtectorChoose.m in Sources */,
+				770E064921C864E200583C9B /* LKStringExtend.m in Sources */,
+				7787282821C9958300FFD392 /* CattleSheep.m in Sources */,
+				770E066321C864E200583C9B /* SKAction+SKTExtras.m in Sources */,
+				770E054621C864C700583C9B /* LKLauchingScene.m in Sources */,
+				770E055921C864C700583C9B /* TinyGoblin.m in Sources */,
+				770E065721C864E200583C9B /* LKProgressTimerForegroundCropNode.m in Sources */,
+				770E066621C864E200583C9B /* LKRootScene.m in Sources */,
+				770E066021C864E200583C9B /* SKBlade.m in Sources */,
+				770E055621C864C700583C9B /* TinyPriest.m in Sources */,
+				770E064A21C864E200583C9B /* LKArrayExtend.m in Sources */,
+				770E057621C864C700583C9B /* LKGlyphCenter.m in Sources */,
+				770E055721C864C700583C9B /* TinyKnight.m in Sources */,
+				777D5AB821D523AF00EC6459 /* SheepMission2.m in Sources */,
+				777D5AD021D5A6A300EC6459 /* SheepMission4.m in Sources */,
+				770E066121C864E200583C9B /* SKEmitterNode+LKSKExtras.m in Sources */,
+				770E064C21C864E200583C9B /* LapKanCenter.m in Sources */,
+				770E066B21C864E200583C9B /* LKRootPlayScene.m in Sources */,
+				770E05C421C864C700583C9B /* GameStore.m in Sources */,
+				770E065E21C864E200583C9B /* SKSpriteNode+LKExtra.m in Sources */,
+				770E055021C864C700583C9B /* TinyAnimal.m in Sources */,
+				770E055821C864C700583C9B /* TinyCyclop.m in Sources */,
+				770E05D821C864C700583C9B /* GameControlCenter.m in Sources */,
 				770E046E21C8647E00583C9B /* main.m in Sources */,
-				770E045921C8647D00583C9B /* AppDelegate.m in Sources */,
+				770E064B21C864E200583C9B /* LKAudioCenter.m in Sources */,
+				770E064821C864E200583C9B /* LKStoreDataExtend.m in Sources */,
+				770E054F21C864C700583C9B /* TinyObject.m in Sources */,
+				770E065221C864E200583C9B /* LKAdCenter.m in Sources */,
+				770E057521C864C700583C9B /* SSBitmapGlyph.m in Sources */,
+				77C65D2021D2008400FE7767 /* SceneChooseCharacter.m in Sources */,
+				770E054D21C864C700583C9B /* TinyEnemy.m in Sources */,
+				777D5AC921D5273400EC6459 /* WaveDataCenter.m in Sources */,
+				770E066E21C864E200583C9B /* LKRootShowroomScene.m in Sources */,
+				770E065121C864E200583C9B /* MissionObj.m in Sources */,
+				777D5ACD21D5A68D00EC6459 /* SheepMission3.m in Sources */,
+				777D5AC521D5273400EC6459 /* SheepProtectorDungeonLevel.m in Sources */,
+				770E064621C864E200583C9B /* LKGraphicExtend.m in Sources */,
+				770E066221C864E200583C9B /* SKAction+SKTSpecialEffects.m in Sources */,
+				770E065921C864E200583C9B /* LKHeathBarNode.m in Sources */,
+				770E055A21C864C700583C9B /* TinyOgre.m in Sources */,
+				77C65D2621D4AE6200FE7767 /* SheepMission1.m in Sources */,
+				770E05C021C864C700583C9B /* SheepProtectorLaunch.m in Sources */,
+				77C65D1D21D1FD9500FE7767 /* SceneChooseMission.m in Sources */,
+				770E066A21C864E200583C9B /* LKRootShopScene.m in Sources */,
+				770E064521C864E200583C9B /* LKActionOperation.m in Sources */,
+				770E065821C864E200583C9B /* LKHeathBarCropNode.m in Sources */,
+				7787282B21C9FB7300FFD392 /* RaiseSheep.m in Sources */,
+				770E065C21C864E200583C9B /* LKGraphicsUtils.m in Sources */,
+				770E065421C864E200583C9B /* InAppObserver.m in Sources */,
+				770E065321C864E200583C9B /* LKMoneyCenter.m in Sources */,
+				770E066421C864E200583C9B /* SKNode+SKTExtras.m in Sources */,
+				770E057821C864C700583C9B /* SSBitmapFontLabelNode.m in Sources */,
+				770E05C321C864C700583C9B /* SheepProtectorPlayDrag.m in Sources */,
+				770E065B21C864E200583C9B /* LKTimingFunction.m in Sources */,
+				770E055B21C864C700583C9B /* TinyOrc.m in Sources */,
+				770E054C21C864C700583C9B /* TinyCharacter.m in Sources */,
+				770E055321C864C700583C9B /* TinyExecutioner.m in Sources */,
+				777D5AC821D5273400EC6459 /* SheepProtectorForestLevel.m in Sources */,
+				770E065D21C864E200583C9B /* LKSKUtils.mm in Sources */,
+				770E054721C864C700583C9B /* AppDelegate.m in Sources */,
+				770E066F21C864E200583C9B /* LKRootChooseScene.m in Sources */,
+				770E066521C864E200583C9B /* SKNode+SKTDebugDraw.m in Sources */,
+				770E057C21C864C700583C9B /* GameViewController.m in Sources */,
+				770E065F21C864E200583C9B /* SKTEffects.m in Sources */,
+				770E066821C864E200583C9B /* LKRootCreditScene.m in Sources */,
+				770E055421C864C700583C9B /* TinyArcher.m in Sources */,
+				770E064E21C864E200583C9B /* LKScoreCenter.m in Sources */,
+				7787282421C9433B00FFD392 /* SceneSheep.m in Sources */,
+				770E066721C864E200583C9B /* LKRootMenuScene.m in Sources */,
+				770E064721C864E200583C9B /* LKNumberExtend.m in Sources */,
+				770E055221C864C700583C9B /* TinyCharState.m in Sources */,
+				770E057721C864C700583C9B /* SSBitmapFont.m in Sources */,
+				770E05C121C864C700583C9B /* CrazySheepGame.m in Sources */,
+				770E065021C864E200583C9B /* LKGenericCenter.m in Sources */,
+				770E055D21C864C700583C9B /* TinyControlCenter.m in Sources */,
+				770E065621C864E200583C9B /* LKProgressTimerNode.m in Sources */,
+				770E065521C864E200583C9B /* InAppManager.m in Sources */,
+				770E064D21C864E200583C9B /* LKLevelCenter.m in Sources */,
+				777D5ACA21D5273400EC6459 /* SheepProtectorOldFarmLevel.m in Sources */,
+				770E064F21C864E200583C9B /* LKResourceCenter.m in Sources */,
+				770E055C21C864C700583C9B /* TinyWolf.m in Sources */,
+				770E066921C864E200583C9B /* LKRootChapterScene.m in Sources */,
+				770E065A21C864E200583C9B /* TileObj.m in Sources */,
+				770E054821C864C700583C9B /* LapKanViewController.m in Sources */,
+				770E066D21C864E200583C9B /* LKRootGuideScene.m in Sources */,
+				770E054E21C864C700583C9B /* TinyArmy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		770E046421C8647D00583C9B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				770E046521C8647D00583C9B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		770E046921C8647E00583C9B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				770E046A21C8647E00583C9B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		770E046F21C8647E00583C9B /* Debug */ = {
@@ -302,6 +1714,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89JNKYP9V4;
 				INFOPLIST_FILE = MonsterRaisers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +1732,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89JNKYP9V4;
 				INFOPLIST_FILE = MonsterRaisers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
